@@ -1,16 +1,59 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState, useMemo } from 'react';
+import { artifacts, type Artifact } from '@/data/artifacts';
+import { useViewProgress } from '@/hooks/useViewProgress';
+import { HeroSection } from '@/components/HeroSection';
+import { MethodologySection } from '@/components/MethodologySection';
+import { ClusterSection } from '@/components/ClusterSection';
+import { ArtifactModal } from '@/components/ArtifactModal';
+import { ProgressTracker } from '@/components/ProgressTracker';
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
+  const [selectedArtifact, setSelectedArtifact] = useState<Artifact | null>(null);
+  const progress = useViewProgress();
+
+  const clusteredArtifacts = useMemo(() => {
+    const map = new Map<number, Artifact[]>();
+    for (const a of artifacts) {
+      const list = map.get(a.cluster) || [];
+      list.push(a);
+      map.set(a.cluster, list);
+    }
+    return Array.from(map.entries()).sort(([a], [b]) => a - b);
+  }, []);
+
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
+    <div className="min-h-screen bg-background">
+      <HeroSection />
+      <MethodologySection />
+
+      <div id="gallery" className="pb-24">
+        {clusteredArtifacts.map(([cluster, arts]) => (
+          <ClusterSection
+            key={cluster}
+            cluster={cluster}
+            artifacts={arts}
+            onView={progress.markViewed}
+            onArtifactClick={setSelectedArtifact}
+            viewedArtifacts={progress.viewedArtifacts}
+          />
+        ))}
+      </div>
+
+      <ArtifactModal
+        artifact={selectedArtifact}
+        open={!!selectedArtifact}
+        onOpenChange={(open) => !open && setSelectedArtifact(null)}
+      />
+
+      <ProgressTracker
+        viewedCount={progress.viewedArtifacts.size}
+        totalCount={progress.totalArtifacts}
+        percentage={progress.percentage}
+        viewedClusters={progress.viewedClusters}
+        onReset={progress.resetProgress}
+      />
     </div>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;

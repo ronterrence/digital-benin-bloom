@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { type Artifact, IMAGE_BASE_URL } from '@/data/artifacts';
+import { type Artifact, mapArtifactImages } from '@/data/artifacts';
 
 interface Props {
   artifact: Artifact;
@@ -12,9 +12,12 @@ export function ArtifactCard({ artifact, onView, onClick, isViewed }: Props) {
   const ref = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
 
+  const images = mapArtifactImages(artifact);
+
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -25,6 +28,7 @@ export function ArtifactCard({ artifact, onView, onClick, isViewed }: Props) {
       },
       { threshold: 0.3 }
     );
+
     observer.observe(el);
     return () => observer.disconnect();
   }, [artifact.id, artifact.cluster, onView]);
@@ -39,7 +43,7 @@ export function ArtifactCard({ artifact, onView, onClick, isViewed }: Props) {
     >
       <div className="relative aspect-square overflow-hidden">
         <img
-          src={`${IMAGE_BASE_URL}${artifact.mainImage}`}
+          src={images.original}
           alt={artifact.id}
           loading="lazy"
           className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -50,6 +54,7 @@ export function ArtifactCard({ artifact, onView, onClick, isViewed }: Props) {
           </div>
         )}
       </div>
+
       <div className="p-3">
         <p className="text-xs font-medium uppercase tracking-wider text-primary">
           {artifact.id.replace('_', ' ')}

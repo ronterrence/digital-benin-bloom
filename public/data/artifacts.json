@@ -1,0 +1,13 @@
+[
+  {
+    "artifact_id": "fig_004",
+    "title": "Bronze plaque, figure of warrior...",
+    "description": "...",
+    "cluster": 0,
+    "images": {
+      "original": "/assets/plates/fig_004_plate.jpg",
+      "enhanced": "/assets/enhanced/fig_004_plate_enhanced.jpg",
+      "bronze": "/assets/bronze/fig_004_plate_bronze.jpg"
+    }
+  }
+]

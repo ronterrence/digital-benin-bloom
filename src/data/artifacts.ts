@@ -7,10 +7,17 @@ export interface Artifact {
   description: string;
 }
 
-export const IMAGE_BASE_URL = "https://raw.githubusercontent.com/ronterrence/benin-artifact-exhibition/main/benin_output/plates/";
+/*export const IMAGE_BASE_URL = "https://raw.githubusercontent.com/ronterrence/benin-artifact-exhibition/main/benin_output/plates/";*/
+export const mapArtifactImages = (artifact: Artifact) => ({
+  original: `https://raw.githubusercontent.com/ronterrence/benin-artifact-exhibition/main/benin_output/plates/${artifact.id}_plate.jpg`,
+  
+  enhanced: `https://raw.githubusercontent.com/ronterrence/benin-artifact-exhibition/main/benin_output/enhanced_plates/${artifact.id}_plate_enhanced.jpg`,
+  
+  bronze: `https://raw.githubusercontent.com/ronterrence/benin-artifact-exhibition/main/benin_output/bronze_output/${artifact.id}_plate_bronze.jpg`,
+});
 
-export const artifacts: Artifact[] = 
-[
+
+ export const artifacts: Artifact[] = [
   {
     "id": "fig_001",
     "mainImage": "fig_001.jpg",

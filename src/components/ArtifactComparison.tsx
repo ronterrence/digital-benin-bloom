@@ -10,16 +10,15 @@ export const ArtifactComparison = ({ artifact }: Props) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
       <div className="space-y-2">
-        <p className="text-sm font-medium text-center text-muted-foreground">
-		<p className="text-xs break-all text-white">{images.original}</p>
-          Original
-        </p>
-        <img
-          src={images.original}
-          alt={`${artifact.id} original`}
-          className="w-full rounded-md bg-white"
-        />
-      </div>
+		<p className="text-sm font-medium text-center text-muted-foreground">
+			Original
+		</p>
+		<img
+			src={images.original}
+			alt={`${artifact.id} original`}
+			className="w-full rounded-md bg-white"
+		/>
+	</div>
 
       <div className="space-y-2">
         <p className="text-sm font-medium text-center text-muted-foreground">

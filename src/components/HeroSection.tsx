@@ -18,11 +18,12 @@ export function HeroSection() {
         <h1 className="mb-6 text-5xl font-bold leading-tight text-gold-gradient md:text-7xl">
           Benin Digital Exhibition
         </h1>
-        <p className="mx-auto mb-4 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-          Exploring the extraordinary bronze plaques and sculptures from the Kingdom of Benin,
-          as documented in Pitt Rivers' 1900 publication{' '}
-          <em className="text-foreground">"Antique Works of Art from Benin"</em>.
-        </p>
+		<p className="text-center text-muted-foreground max-w-2xl mx-auto">
+		Exploring the extraordinary bronze plaques and sculptures from the Kingdom of Benin, as documented in Pitt Rivers' 1900 publication
+		</p>
+		<p className="text-center italic text-primary mt-2">
+		“Antique Works of Art from Benin”
+		</p>
         <p className="mx-auto mb-10 max-w-xl text-sm text-muted-foreground">
           239 artifacts · 11 visual clusters · AI-enhanced reconstructions
         </p>

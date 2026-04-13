@@ -6,6 +6,7 @@ import { MethodologySection } from '@/components/MethodologySection';
 import { ClusterSection } from '@/components/ClusterSection';
 import { ArtifactModal } from '@/components/ArtifactModal';
 import { ProgressTracker } from '@/components/ProgressTracker';
+import { HistoricalNarrativeSection } from '@/components/HistoricalNarrativeSection';
 
 const Index = () => {
   const [selectedArtifact, setSelectedArtifact] = useState<Artifact | null>(null);
@@ -24,6 +25,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <HeroSection />
+	  <HistoricalNarrativeSection />
       <MethodologySection />
 
       <div id="gallery" className="pb-24">

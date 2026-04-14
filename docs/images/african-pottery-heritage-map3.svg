@@ -1,0 +1,53 @@
+<svg viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    .title { font-size: 20px; fill: #d4af37; font-weight: 600; }
+    .label { font-size: 16px; fill: #e5e5e5; }
+    .small { font-size: 13px; fill: #bdbdbd; }
+    .box { rx: 12; ry: 12; stroke-width: 1.5; }
+    .line { stroke: #aaa; stroke-width: 1.5; stroke-dasharray: 4 4; }
+  </style>
+
+  <!-- Title -->
+  <text x="50%" y="40" text-anchor="middle" class="title">
+    Ancient African pottery traditions — heritage and connections
+  </text>
+
+  <!-- Nubia -->
+  <rect x="600" y="80" width="220" height="70" class="box" fill="#cfe8e5" stroke="#88bdb7"></rect>
+  <text x="710" y="110" text-anchor="middle" class="label">Ancient Nubia</text>
+  <text x="710" y="130" text-anchor="middle" class="small">c. 8000 BCE – 350 CE</text>
+
+  <!-- Egypt -->
+  <rect x="580" y="200" width="240" height="80" class="box" fill="#f4e6cc" stroke="#d4af37"></rect>
+  <text x="700" y="230" text-anchor="middle" class="label">Ancient Egypt</text>
+  <text x="700" y="250" text-anchor="middle" class="small">Predynastic – Late Period</text>
+
+  <!-- Nok -->
+  <rect x="120" y="200" width="240" height="80" class="box" fill="#f6dcd2" stroke="#e5a38a"></rect>
+  <text x="240" y="230" text-anchor="middle" class="label">Nok Culture</text>
+  <text x="240" y="250" text-anchor="middle" class="small">1500 BCE – 200 CE</text>
+
+  <!-- Yoruba -->
+  <rect x="140" y="320" width="220" height="70" class="box" fill="#e7d5dc" stroke="#c08a9a"></rect>
+  <text x="250" y="350" text-anchor="middle" class="label">Yoruba / Ife</text>
+  <text x="250" y="370" text-anchor="middle" class="small">c. 600 BCE – medieval</text>
+
+  <!-- Benin -->
+  <rect x="160" y="420" width="240" height="80" class="box" fill="#d9dcf2" stroke="#8a92d4"></rect>
+  <text x="280" y="450" text-anchor="middle" class="label">Kingdom of Benin</text>
+  <text x="280" y="470" text-anchor="middle" class="small">c. 13th – 19th century CE</text>
+
+  <!-- Root -->
+  <rect x="350" y="500" width="260" height="70" class="box" fill="#f0f0f0" stroke="#999"></rect>
+  <text x="480" y="530" text-anchor="middle" class="label">Pan-African ceramic root</text>
+  <text x="480" y="550" text-anchor="middle" class="small">Ounjougou, Mali — c. 9400 BCE</text>
+
+  <!-- Lines -->
+  <line x1="700" y1="150" x2="700" y2="200" class="line"></line>
+  <line x1="240" y1="280" x2="250" y2="320" class="line"></line>
+  <line x1="250" y1="390" x2="280" y2="420" class="line"></line>
+  <line x1="480" y1="500" x2="240" y2="280" class="line"></line>
+  <line x1="480" y1="500" x2="700" y2="280" class="line"></line>
+
+</svg>

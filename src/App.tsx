@@ -20,26 +20,19 @@ const App = () => (
       <Toaster />
       <Sonner />
 
-      <BrowserRouter>
-		<Navbar />
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
+        <Navbar />
         <Routes>
-
-          {/* TEMP: keep your current working page */}
           <Route path="/" element={<HomePage />} />
-
-          {/* NEW ROUTES */}
+          <Route path="/home" element={<HomePage />} />
           <Route path="/audio" element={<AudioNarrativesPage />} />
           <Route path="/archive" element={<ArchivePage />} />
           <Route path="/survival" element={<SurvivalPage />} />
           <Route path="/epilogue" element={<EpiloguePage />} />
           <Route path="/about" element={<AboutPage />} />
-
-          {/* Catch-all */}
           <Route path="*" element={<NotFound />} />
-
         </Routes>
       </BrowserRouter>
-
     </TooltipProvider>
   </QueryClientProvider>
 );

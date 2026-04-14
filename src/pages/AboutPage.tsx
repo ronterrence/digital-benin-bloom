@@ -1,4 +1,5 @@
 import generateAboutContent from "../utils/generateAbout";
+import { asset } from "@/lib/asset";
 
 export default function AboutPage() {
   const about = generateAboutContent({
@@ -20,7 +21,7 @@ export default function AboutPage() {
           <div>
             <div className="max-w-[260px] overflow-hidden rounded-xl border border-border/50">
               <img
-                src="/images/author.png"
+                src={asset("images/author.png")}
                 alt="Author portrait"
                 className="h-full w-full object-cover"
               />

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { asset } from "@/lib/asset";
 
 export default function PotteryEvidenceSection() {
   const [showFigure, setShowFigure] = useState(false);
@@ -27,7 +28,7 @@ export default function PotteryEvidenceSection() {
           <>
             <div className="mt-4 overflow-hidden rounded-lg border border-border/50 bg-muted/20">
               <img
-                src="/images/fig-26-benin-pottery.jpg"
+    			src={asset("images/fig-26-benin-pottery.jpg")}
                 alt="Figure 26 pottery sketches from The Archaeology of Benin"
                 className="w-full object-contain"
               />
@@ -72,7 +73,7 @@ export default function PotteryEvidenceSection() {
           <>
             <div className="mt-4 overflow-hidden rounded-lg border border-border/50 bg-black p-8 md:p-12">
               <img
-                src="/images/african-pottery-heritage-map.svg"
+				src={asset("images/african-pottery-heritage-map.svg")}
                 alt="Comparative map of African pottery heritage interactions"
                 className="mx-auto w-full max-w-5xl object-contain"
               />

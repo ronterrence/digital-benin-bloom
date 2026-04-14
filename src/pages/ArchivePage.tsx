@@ -6,6 +6,8 @@ import { ClusterSection } from '@/components/ClusterSection';
 import { ArtifactModal } from '@/components/ArtifactModal';
 import { ProgressTracker } from '@/components/ProgressTracker';
 import { Link } from "react-router-dom";
+import { asset } from "@/lib/asset"; // ← add at top
+
 
 export default function ArchivePage() {
   const [selectedArtifact, setSelectedArtifact] = useState<Artifact | null>(null);

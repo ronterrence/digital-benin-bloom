@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { asset } from "@/lib/asset"; // ← add at top
+
 
 export default function EpiloguePage() {
   return (
@@ -21,7 +23,7 @@ export default function EpiloguePage() {
 
         <div className="mb-12">
           <video controls className="w-full rounded-lg border border-border/50 shadow-sm">
-            <source src="/videos/lost-city.mp4" type="video/mp4" />
+            <source src={asset("videos/lost-city.mp4")} type="video/mp4" />
           </video>
         </div>
 

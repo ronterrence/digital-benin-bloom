@@ -1,3 +1,5 @@
+import { asset } from "@/lib/asset";
+
 export default function SurvivalPage() {
   return (
     <div className="min-h-screen bg-background px-6 py-24">
@@ -69,14 +71,16 @@ export default function SurvivalPage() {
           </h2>
 
           <video controls className="w-full rounded-lg border border-border/50">
-            <source src="/videos/ogiamien.mp4" type="video/mp4" />
+			<source src={asset("videos/ogiamien-1.mp4")} type="video/mp4" />
+
           </video>
 
           <div className="mt-6 max-w-4xl space-y-6">
 		  <p className="text-sm leading-6 text-muted-foreground">
 			The video presents a 3D reconstruction of Ogiamien’s House, one of the oldest surviving
 			buildings in Benin City and a significant example of the architectural traditions of the
-			Kingdom of Benin.
+			Kingdom of Benin. Chief Ogiamien's Palace is said to have originally been built around 1160
+			by the dynasty of rulers who preceded Oba Eweka . It miraculously survived the 1897 British destruction of Benin City and continued to be inhabited until 1975
 		  </p>
 
 		  <p className="text-sm leading-6 text-muted-foreground">

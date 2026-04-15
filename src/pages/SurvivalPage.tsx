@@ -71,7 +71,7 @@ export default function SurvivalPage() {
           </h2>
 
           <video controls className="w-full rounded-lg border border-border/50">
-			<source src={asset("videos/ogiamien-1.mp4")} type="video/mp4" />
+			<source src={asset("videos/ogiamien.mp4")} type="video/mp4" />
 
           </video>
 

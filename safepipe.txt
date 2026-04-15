@@ -1,0 +1,13 @@
+git checkout experiment-audio
+
+# develop
+npm run dev
+
+# before pushing
+npm run build
+npm run preview
+
+# if all good
+git add .
+git commit -m "experiment changes"
+git push

@@ -15,6 +15,12 @@ export interface AtlasEntry {
     notes?: string;
   };
 
+  metadata: {
+    period: string;
+    event: string;
+    origin: string;
+  };
+
   confidence: number;
 }
 

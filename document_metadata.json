@@ -1,0 +1,35 @@
+{
+  "title": "The University of Oxford’s Benin 1897 Collections: an interim report",
+  "author": "Dan Hicks",
+  "year": 2021,
+  "institution": "Pitt Rivers Museum, University of Oxford",
+  "publication_date": "17 November 2021",
+  "citation": "Hicks, Dan. 2021. The University of Oxford’s Benin 1897 Collections: an interim report. Oxford: Pitt Rivers Museum.",
+  "description": "An interim provenance research report documenting objects looted during the 1897 Benin Punitive Expedition and currently held by the University of Oxford.",
+  "dataset_summary": {
+    "objects_identified": 145,
+    "estimated_total_looted": 10000,
+    "coverage_percentage": "<1.5%",
+    "includes": [
+      "Confirmed looted objects (Section 2)",
+      "Possibly looted objects (Section 3)",
+      "Appendices with accession-level catalog",
+      "Photographic atlas"
+    ]
+  },
+  "research_context": {
+    "focus": "Provenance research and restitution",
+    "approach": "Transparency-first publication of interim findings",
+    "related_projects": [
+      "Digital Benin"
+    ]
+  },
+  "notes": [
+    "This dataset is derived from a PDF report using automated extraction.",
+    "Descriptions and mappings may contain minor parsing errors.",
+    "Image-to-object mapping is based on accession number detection.",
+    "Further validation may be required for research-grade use."
+  ],
+  "license": "Unknown / Refer to original publication",
+  "source_file": "benincollections_danhicks.pdf"
+}

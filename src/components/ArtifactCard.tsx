@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { type Artifact, mapArtifactImages } from '@/data/artifacts';
 import { atlas } from '@/data/atlas';
+import { verifiedMatches } from '@/data/verifiedMatches';
 
 interface Props {
   artifact: Artifact;
@@ -16,6 +17,8 @@ export function ArtifactCard({ artifact, onView, onClick, isViewed }: Props) {
   const images = mapArtifactImages(artifact);
   const atlasEntry = atlas.find((a) => a.id === artifact.id);
   const hasAtlasMatch = !!atlasEntry;
+  const verifiedMatch = verifiedMatches.find((m) => m.id === artifact.id);
+  const hasVerifiedMatch = !!verifiedMatch;
 
   useEffect(() => {
     const el = ref.current;
@@ -55,6 +58,12 @@ export function ArtifactCard({ artifact, onView, onClick, isViewed }: Props) {
         {hasAtlasMatch && (
           <div className="absolute left-2 top-2 rounded-full bg-primary/90 px-2 py-0.5 text-[10px] font-medium text-primary-foreground">
             Atlas Match
+          </div>
+        )}
+
+        {hasVerifiedMatch && (
+          <div className="absolute left-2 top-9 rounded-full bg-secondary/90 px-2 py-0.5 text-[10px] font-medium text-foreground">
+            Verified
           </div>
         )}
         

@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { type Artifact, mapArtifactImages } from '@/data/artifacts';
+import { atlas } from '@/data/atlas';
 
 interface Props {
   artifact: Artifact;
@@ -13,6 +14,8 @@ export function ArtifactCard({ artifact, onView, onClick, isViewed }: Props) {
   const [visible, setVisible] = useState(false);
 
   const images = mapArtifactImages(artifact);
+  const atlasEntry = atlas.find((a) => a.id === artifact.id);
+  const hasAtlasMatch = !!atlasEntry;
 
   useEffect(() => {
     const el = ref.current;
@@ -48,6 +51,14 @@ export function ArtifactCard({ artifact, onView, onClick, isViewed }: Props) {
           loading="lazy"
           className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
         />
+
+        {hasAtlasMatch && (
+          <div className="absolute left-2 top-2 rounded-full bg-primary/90 px-2 py-0.5 text-[10px] font-medium text-primary-foreground">
+            Atlas Match
+          </div>
+        )}
+        
+
         {isViewed && (
           <div className="absolute right-2 top-2 rounded-full bg-primary/80 px-2 py-0.5 text-[10px] font-medium text-primary-foreground">
             Viewed

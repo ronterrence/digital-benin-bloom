@@ -49,34 +49,37 @@ export function ArtifactModal({ artifact, open, onOpenChange }: Props) {
         )}
 
         {atlasEntry?.oxford && (
-          <div className="mt-4 rounded-lg bg-muted p-4 text-sm">
-            <p className="mb-2 text-xs uppercase tracking-wider text-muted-foreground">
-              Oxford Collection Match
+        <div className="mt-4 rounded-lg bg-muted p-4 text-sm">
+          <p className="mb-2 text-xs uppercase tracking-wider text-muted-foreground">
+            Oxford Collection 
+            
+          </p>
+
+          <p><strong>Object:</strong> {atlasEntry.oxford.objectType}</p>
+          <p><strong>Collection:</strong> {atlasEntry.oxford.collection}</p>
+          <p><strong>Date:</strong> {atlasEntry.oxford.acquisitionDate}</p>
+          <p><strong>Location:</strong> {atlasEntry.oxford.location}</p>
+
+          {atlasEntry.oxford.notes && (
+            <p className="mt-2 text-muted-foreground">
+              {atlasEntry.oxford.notes}
             </p>
+          )}
 
-            <p><strong>Object:</strong> {atlasEntry.oxford.objectType}</p>
-            <p><strong>Collection:</strong> {atlasEntry.oxford.collection}</p>
-            <p><strong>Date:</strong> {atlasEntry.oxford.acquisitionDate}</p>
-            <p><strong>Location:</strong> {atlasEntry.oxford.location}</p>
+          {atlasEntry?.metadata && (
+            <div className="mt-3 text-xs text-muted-foreground">
+              <p><strong>Period:</strong> {atlasEntry.metadata.period}</p>
+              <p><strong>Event:</strong> {atlasEntry.metadata.event}</p>
+              <p><strong>Origin:</strong> {atlasEntry.metadata.origin}</p>
+            </div>
+          )}
 
-            {atlasEntry.oxford.notes && (
-              <p className="mt-2 text-muted-foreground">
-                {atlasEntry.oxford.notes}
-              </p>
-            )}
+          <p className="mt-2 text-xs text-muted-foreground">
+            Confidence: {(atlasEntry.confidence * 100).toFixed(0)}%
+          </p>
+        </div>
+      )}
 
-            <p className="mt-2 text-xs text-muted-foreground">
-              Confidence: {(atlasEntry.confidence * 100).toFixed(0)}%
-            </p>
-          </div>
-        )}
-		{atlasEntry?.metadata && (
-		  <div className="mt-3 text-xs text-muted-foreground">
-			<p><strong>Period:</strong> {atlasEntry.metadata.period}</p>
-			<p><strong>Event:</strong> {atlasEntry.metadata.event}</p>
-			<p><strong>Origin:</strong> {atlasEntry.metadata.origin}</p>
-		  </div>
-		)}
       </DialogContent>
     </Dialog>
   );

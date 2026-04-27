@@ -2,6 +2,8 @@ import { type Artifact, clusterNames } from '@/data/artifacts';
 import { ArtifactComparison } from '@/components/ArtifactComparison';
 import { atlas } from '@/data/atlas';
 import { verifiedMatches } from '@/data/verifiedMatches';
+import { atlasOxfordLinks } from '@/data/atlasOxfordLinks';
+import { oxfordAtlasSource } from '@/data/oxfordAtlasSource';
 
 import {
   Dialog,
@@ -22,6 +24,10 @@ export function ArtifactModal({ artifact, open, onOpenChange }: Props) {
 
   const atlasEntry = atlas.find((a) => a.id === artifact.id);
   const verifiedMatch = verifiedMatches.find((m) => m.id === artifact.id);
+  const oxfordLink = atlasOxfordLinks.find((l) => l.artifactId === artifact.id);
+  const oxfordEntry = oxfordLink?.accessionNumber
+    ? oxfordAtlasSource.find((o) => o.accessionNumber === oxfordLink.accessionNumber)
+    : null;
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
@@ -124,6 +130,63 @@ export function ArtifactModal({ artifact, open, onOpenChange }: Props) {
             {verifiedMatch.note && (
               <p className="mt-2 text-muted-foreground">
                 {verifiedMatch.note}
+              </p>
+            )}
+          </div>
+        )}
+
+        {oxfordLink && !oxfordEntry && oxfordLink.note && (
+          <div className="mt-4 rounded-lg bg-muted/30 p-4 text-sm">
+            <p className="mb-2 text-xs uppercase tracking-wider text-muted-foreground">
+              Oxford Link Note
+            </p>
+            <p className="text-muted-foreground">{oxfordLink.note}</p>
+          </div>
+        )}
+
+        {oxfordEntry && (
+          <div className="mt-4 rounded-lg bg-muted/40 p-4 text-sm">
+            <p className="mb-2 text-xs uppercase tracking-wider text-muted-foreground">
+              Oxford Source Record
+            </p>
+
+            <p><strong>Accession:</strong> {oxfordEntry.accessionNumber}</p>
+
+            {oxfordEntry.objectTitle && (
+              <p><strong>Title:</strong> {oxfordEntry.objectTitle}</p>
+            )}
+
+            {oxfordEntry.objectDescription && (
+              <p className="mt-2">
+                <strong>Description:</strong> {oxfordEntry.objectDescription}
+              </p>
+            )}
+
+            {oxfordEntry.sourceSection && (
+              <p className="mt-2"><strong>Section:</strong> {oxfordEntry.sourceSection}</p>
+            )}
+
+            {oxfordEntry.provenance && (
+              <p><strong>Provenance:</strong> {oxfordEntry.provenance}</p>
+            )}
+
+            {oxfordEntry.provenanceDetail && (
+              <p className="mt-2">
+                <strong>Provenance Detail:</strong> {oxfordEntry.provenanceDetail}
+              </p>
+            )}
+
+            {oxfordEntry.benin1897Status && (
+              <p className="mt-2"><strong>Status:</strong> {oxfordEntry.benin1897Status}</p>
+            )}
+
+            {oxfordEntry.imageFile && (
+              <p><strong>Image file:</strong> {oxfordEntry.imageFile}</p>
+            )}
+
+            {oxfordLink?.note && (
+              <p className="mt-2 text-muted-foreground">
+                {oxfordLink.note}
               </p>
             )}
           </div>

@@ -15,10 +15,12 @@ export function ArtifactCard({ artifact, onView, onClick, isViewed }: Props) {
   const [visible, setVisible] = useState(false);
 
   const images = mapArtifactImages(artifact);
-  const atlasEntry = atlas.find((a) => a.id === artifact.id);
-  const hasAtlasMatch = !!atlasEntry;
-  const verifiedMatch = verifiedMatches.find((m) => m.id === artifact.id);
-  const hasVerifiedMatch = !!verifiedMatch;
+
+  // Kept for later reuse if you want to re-enable archive badges.
+  // const atlasEntry = atlas.find((a) => a.id === artifact.id);
+  // const hasAtlasMatch = !!atlasEntry;
+  // const verifiedMatch = verifiedMatches.find((m) => m.id === artifact.id);
+  // const hasVerifiedMatch = !!verifiedMatch;
 
   useEffect(() => {
     const el = ref.current;
@@ -55,24 +57,27 @@ export function ArtifactCard({ artifact, onView, onClick, isViewed }: Props) {
           className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
         />
 
+        {/*
         {hasAtlasMatch && (
           <div className="absolute left-2 top-2 rounded-full bg-primary/90 px-2 py-0.5 text-[10px] font-medium text-primary-foreground">
             Atlas Match
           </div>
         )}
+        */}
 
+        {/*
         {hasVerifiedMatch && (
           <div className="absolute left-2 top-9 rounded-full bg-secondary/90 px-2 py-0.5 text-[10px] font-medium text-foreground">
             Verified
           </div>
         )}
-        
+        */}
 
-        {isViewed && (
+        {/*isViewed && (
           <div className="absolute right-2 top-2 rounded-full bg-primary/80 px-2 py-0.5 text-[10px] font-medium text-primary-foreground">
             Viewed
           </div>
-        )}
+        )*/}
       </div>
 
       <div className="p-3">

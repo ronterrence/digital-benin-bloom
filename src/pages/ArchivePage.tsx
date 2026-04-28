@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { artifacts, type Artifact } from '@/data/artifacts';
 import { useViewProgress } from '@/hooks/useViewProgress';
 import { MethodologySection } from '@/components/MethodologySection';
@@ -32,6 +32,32 @@ export default function ArchivePage() {
 
     return Array.from(map.entries()).sort(([a], [b]) => a - b);
   }, [showOnlyMatched]);
+
+  const renderedArtifacts = useMemo(() => {
+    return clusteredArtifacts.flatMap(([, arts]) => arts);
+  }, [clusteredArtifacts]);
+
+  const selectedIndex = useMemo(() => {
+    if (!selectedArtifact) return -1;
+    return renderedArtifacts.findIndex((a) => a.id === selectedArtifact.id);
+  }, [selectedArtifact, renderedArtifacts]);
+
+  useEffect(() => {
+    if (!selectedArtifact) return;
+    if (selectedIndex === -1) {
+      setSelectedArtifact(null);
+    }
+  }, [selectedArtifact, selectedIndex]);
+
+  const handlePrev = () => {
+    if (selectedIndex <= 0) return;
+    setSelectedArtifact(renderedArtifacts[selectedIndex - 1]);
+  };
+
+  const handleNext = () => {
+    if (selectedIndex === -1 || selectedIndex >= renderedArtifacts.length - 1) return;
+    setSelectedArtifact(renderedArtifacts[selectedIndex + 1]);
+  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -96,6 +122,10 @@ export default function ArchivePage() {
         artifact={selectedArtifact}
         open={!!selectedArtifact}
         onOpenChange={(open) => !open && setSelectedArtifact(null)}
+        onPrev={handlePrev}
+        onNext={handleNext}
+        hasPrev={selectedIndex > 0}
+        hasNext={selectedIndex !== -1 && selectedIndex < renderedArtifacts.length - 1}
       />
 
       <ProgressTracker

@@ -6,12 +6,11 @@ export interface AtlasOxfordLink {
 }
 
 export const atlasOxfordLinks: AtlasOxfordLink[] = [
-  // verified examples
   {
     artifactId: "fig_090",
-    accessionNumber: "1992.20.1",
+    accessionNumber: "",
     linkType: "verified_match",
-    note: "Probable Oxford match: standing brass figure holding staff. Needs visual confirmation.",
+    note: "Current Oxford accession candidate rejected after visual comparison. Object-level Oxford accession not yet confirmed.",
   },
   {
     artifactId: "fig_116",

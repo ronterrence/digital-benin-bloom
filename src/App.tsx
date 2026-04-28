@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import HomePage from "./pages/HomePage";
 import AudioNarrativesPage from "./pages/AudioNarrativesPage";
 import ArchivePage from "./pages/ArchivePage";
+import MapPage from './MapPage';
 import SurvivalPage from "./pages/SurvivalPage";
 import EpiloguePage from "./pages/EpiloguePage";
 import AboutPage from "./pages/AboutPage";
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/home" element={<HomePage />} />
           <Route path="/audio" element={<AudioNarrativesPage />} />
           <Route path="/archive" element={<ArchivePage />} />
+          <Route path="/map" element={<MapPage />} />
           <Route path="/survival" element={<SurvivalPage />} />
           <Route path="/epilogue" element={<EpiloguePage />} />
           <Route path="/about" element={<AboutPage />} />

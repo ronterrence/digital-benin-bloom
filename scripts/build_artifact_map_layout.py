@@ -10,7 +10,7 @@ from torchvision import models, transforms
 from sklearn.manifold import TSNE
 
 # CHANGE THIS to the folder that contains your Pitts main images like fig_001.jpg
-IMAGE_DIR = Path(r"C:\Users\ron\Documents\project\digital-benin-bloom\public\images")
+IMAGE_DIR = Path(r"C:\Users\ron\Documents\project\benin_output_plates_clean") 
 OUTPUT_PATH = Path(r"C:\Users\ron\Documents\project\digital-benin-bloom\data\normalized\artifact_map_layout.json")
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"

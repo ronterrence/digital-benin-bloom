@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { type Artifact, clusterNames } from '@/data/artifacts';
+import { type Artifact } from '@/data/artifacts';
 import { ArtifactComparison } from '@/components/ArtifactComparison';
 import { atlas } from '@/data/atlas';
 import { verifiedMatches } from '@/data/verifiedMatches';
@@ -90,7 +90,7 @@ export function ArtifactModal({
             {artifact.id.replace('_', ' ').toUpperCase()}
           </DialogTitle>
           <DialogDescription className="text-xs text-muted-foreground">
-            Cluster {String(artifact.cluster).padStart(2, '0')} — {clusterNames[artifact.cluster]}
+            Cluster {String(artifact.cluster).padStart(2, '0')}
           </DialogDescription>
         </DialogHeader>
 

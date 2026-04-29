@@ -59,6 +59,9 @@ export default function ArchivePage() {
     setSelectedArtifact(renderedArtifacts[selectedIndex + 1]);
   };
 
+  const actionButtonClass =
+    'inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium leading-none tracking-normal transition';
+
   return (
     <div className="min-h-screen bg-background">
       <div className="mx-auto max-w-4xl px-6 pt-24 pb-12 text-center">
@@ -79,15 +82,22 @@ export default function ArchivePage() {
           {atlasMatchCount} objects linked to Oxford 1897 collection
         </p>
 
-        <div className="mt-4">
+        <div className="mt-4 flex flex-wrap items-center justify-center gap-3">
           <button
             onClick={() => setShowOnlyMatched((prev) => !prev)}
-            className="inline-block rounded-md border border-primary/40 px-4 py-2 text-sm text-primary transition hover:bg-primary/10"
+            className={`${actionButtonClass} border border-primary/40 text-primary hover:bg-primary/10`}
           >
-            {showOnlyMatched ? 'Show all objects' : 'Show atlas-linked objects only'}
+            {showOnlyMatched ? 'Show all objects' : 'Show located objects only'}
           </button>
+
+        <Link
+          to="/map"
+          className={`${actionButtonClass} border border-border/50 text-muted-foreground hover:bg-muted hover:text-primary`}
+        >
+          Explore as map
+        </Link>
         </div>
-      </div>
+        </div>
 
       <MethodologySection />
 

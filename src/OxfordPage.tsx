@@ -94,7 +94,7 @@ export default function OxfordPage() {
 
           <div className="mt-3 text-sm text-muted-foreground">
             <span>{rows.length} image-backed records</span>
-            <span className="mx-2">·</span>
+            <span className="mx-2">-</span>
             <span>{confirmedCount} marked confirmed_1897</span>
           </div>
         </div>

@@ -48,7 +48,7 @@ export default function ContextGalleryPage() {
 
   const pageRange = useMemo(() => {
     const pages = contextImages.map((image) => image.page);
-    return `${Math.min(...pages)}–${Math.max(...pages)}`;
+    return `${Math.min(...pages)}-${Math.max(...pages)}`;
   }, []);
 
   useEffect(() => {
@@ -92,7 +92,7 @@ export default function ContextGalleryPage() {
           </p>
 
           <p className="mt-3 text-sm text-muted-foreground">
-            {contextImages.length} images · Pages {pageRange}
+            {contextImages.length} images - Pages {pageRange}
           </p>
         </div>
 
@@ -147,7 +147,7 @@ export default function ContextGalleryPage() {
                   {selectedImage.title}
                 </p>
                 <p className="mt-1 text-sm text-muted-foreground">
-                  Page {selectedImage.page} · Historical context image
+                  Page {selectedImage.page} - Historical context image
                 </p>
               </div>
 
@@ -158,7 +158,7 @@ export default function ContextGalleryPage() {
                   disabled={!hasPrev}
                   className="rounded-md border border-border/50 px-3 py-2 text-sm text-foreground transition hover:bg-muted disabled:cursor-not-allowed disabled:opacity-40"
                 >
-                  ← Prev
+                <p>Previous</p>
                 </button>
 
                 <button
@@ -166,7 +166,7 @@ export default function ContextGalleryPage() {
                   onClick={() => setSelectedIndex(null)}
                   className="rounded-md border border-border/50 px-3 py-2 text-sm text-foreground transition hover:bg-muted"
                 >
-                  Close
+                <p>Close</p>
                 </button>
 
                 <button
@@ -175,7 +175,7 @@ export default function ContextGalleryPage() {
                   disabled={!hasNext}
                   className="rounded-md border border-border/50 px-3 py-2 text-sm text-foreground transition hover:bg-muted disabled:cursor-not-allowed disabled:opacity-40"
                 >
-                  Next →
+                    Next
                 </button>
               </div>
             </div>
@@ -290,7 +290,7 @@ export default function ContextGalleryPage() {
                   </div>
 
                   <p className="text-xs uppercase tracking-wider text-muted-foreground">
-                    ESC to close · Previous / Next to browse
+                    ESC to close - Use Previous / Next to browse
                   </p>
                 </div>
               </div>

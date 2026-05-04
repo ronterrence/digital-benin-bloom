@@ -94,7 +94,7 @@ export function ArtifactModal({
               disabled={!hasPrev}
               className="rounded-md border border-border/50 px-3 py-2 text-sm text-foreground transition hover:bg-muted disabled:cursor-not-allowed disabled:opacity-40"
             >
-              ← Previous
+              Previous
             </button>
 
             <div className="text-xs uppercase tracking-wider text-muted-foreground">
@@ -110,7 +110,7 @@ export function ArtifactModal({
               disabled={!hasNext}
               className="rounded-md border border-border/50 px-3 py-2 text-sm text-foreground transition hover:bg-muted disabled:cursor-not-allowed disabled:opacity-40"
             >
-              Next →
+              Next
             </button>
           </div>
         )}

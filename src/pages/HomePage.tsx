@@ -13,7 +13,7 @@ export default function HomePage() {
         </h1>
 
         <p className="mb-10 text-lg leading-8 text-muted-foreground md:text-xl">
-          Exploring the extraordinary bronze plaques and sculptures of the Kingdom of Benin —
+          Exploring the extraordinary bronze plaques and sculptures of the Kingdom of Benin -
           from their creation, to their displacement, and what remains today.
         </p>
 

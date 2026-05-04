@@ -15,7 +15,7 @@ export default function SurvivalPage() {
 
         <p className="mb-16 max-w-3xl text-lg leading-8 text-muted-foreground">
           While much of Benin was destroyed or displaced, traces of the original city and its
-          structures remain. These fragments—architectural, archaeological, and digital—offer
+          structures remain. These fragments - architectural, archaeological, and digital - offer
           insight into what endured beyond the events of 1897.
         </p>
 
@@ -38,13 +38,13 @@ export default function SurvivalPage() {
               rel="noreferrer"
               className="text-sm text-gold hover:underline"
             >
-              Visit article →
+              Visit article
             </a>
           </div>
 
           <div className="h-full rounded-lg border border-border/50 p-6">
             <h3 className="mb-2 text-lg font-semibold text-gold">
-              Ogiamien’s House
+              Ogiamien's House
             </h3>
             <p className="mb-4 text-sm text-muted-foreground">
               The only surviving structure associated with the 1897 expedition, preserved as
@@ -56,7 +56,7 @@ export default function SurvivalPage() {
               rel="noreferrer"
               className="text-sm text-gold hover:underline"
             >
-              View heritage page →
+              View heritage page
             </a>
           </div>
         </div>
@@ -77,7 +77,7 @@ export default function SurvivalPage() {
 
           <div className="mt-6 max-w-4xl space-y-6">
 		  <p className="text-sm leading-6 text-muted-foreground">
-			The video presents a 3D reconstruction of Ogiamien’s House, one of the oldest surviving
+			The video presents a 3D reconstruction of Ogiamien's House, one of the oldest surviving
 			buildings in Benin City and a significant example of the architectural traditions of the
 			Kingdom of Benin. Chief Ogiamien's Palace is said to have originally been built around 1160
 			by the dynasty of rulers who preceded Oba Eweka . It miraculously survived the 1897 British destruction of Benin City and continued to be inhabited until 1975
@@ -106,7 +106,7 @@ export default function SurvivalPage() {
 			<h3 className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-gold">
 			  Special Thanks
 			</h3>
-			<h3 className="mb-3 text-sm font-semibold semibold text-muted-foreground">Deutsches Archäologisches Institut
+			<h3 className="mb-3 text-sm font-semibold semibold text-muted-foreground">Deutsches Archaologisches Institut
 			</h3>
 			<div className="space-y-1 text-sm leading-6 text-muted-foreground">
 			  <p>Rich Arisco Osemwengie</p>
@@ -122,7 +122,7 @@ export default function SurvivalPage() {
 
 			<p className="text-sm leading-6 text-muted-foreground">
 			  Nevadomsky, J., Lawson, N. & Hazlett, K. <em>An Ethnographic and Space Syntax Analysis
-			  of Benin Kingdom Nobility Architecture.</em> <em>African Archaeological Review</em> 31, 59–85 (2014).
+			  of Benin Kingdom Nobility Architecture.</em> <em>African Archaeological Review</em> 31, 59-85 (2014).
 			</p>
 
 			<a
@@ -131,7 +131,7 @@ export default function SurvivalPage() {
 			  rel="noreferrer"
 			  className="mt-3 inline-block text-sm text-gold hover:underline"
 			>
-			  View reference →
+			  View reference
 			</a>
 		  </div>
 		</div>
@@ -141,7 +141,7 @@ export default function SurvivalPage() {
         {/* Closing line */}
         <div className="pt-4">
           <p className="max-w-2xl text-sm italic text-muted-foreground">
-            What survives is not only what remains — but what is remembered and reconstructed.
+            What survives is not only what remains - but what is remembered and reconstructed.
           </p>
         </div>
       </div>

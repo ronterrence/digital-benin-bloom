@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { asset } from "@/lib/asset"; // ← add at top
+import { asset } from "@/lib/asset";
 
 
 export default function EpiloguePage() {
@@ -16,9 +16,9 @@ export default function EpiloguePage() {
         </h1>
 
         <p className="mx-auto mb-16 max-w-2xl text-lg leading-8 text-muted-foreground">
-          Before its destruction, Great Ubini — the Kingdom of Benin — was a thriving
+          Before its destruction, Great Ubini - the Kingdom of Benin - was a thriving
           and sophisticated city, known for its architecture, artistry, and political organization.
-          What remains today are fragments — physical, digital, and remembered.
+          What remains today are fragments - physical, digital, and remembered.
         </p>
 
         <div className="mb-12">
@@ -28,7 +28,7 @@ export default function EpiloguePage() {
         </div>
 
         <p className="mx-auto max-w-2xl text-sm italic text-muted-foreground">
-          What is lost is not only what is destroyed — but what is no longer remembered.
+          What is lost is not only what is destroyed - but what is no longer remembered.
         </p>
 
         <div className="mt-12">
@@ -36,7 +36,7 @@ export default function EpiloguePage() {
             to="/"
             className="inline-block text-sm text-gold/80 hover:text-gold transition"
           >
-            Return to exhibition →
+            Return to exhibition
           </Link>
         </div>
 

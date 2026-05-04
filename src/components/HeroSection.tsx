@@ -22,10 +22,10 @@ export function HeroSection() {
 		Exploring the extraordinary bronze plaques and sculptures from the Kingdom of Benin, as documented in Pitt Rivers' 1900 publication
 		</p>
 		<p className="text-center italic text-primary mt-2">
-		“Antique Works of Art from Benin”
+		"Antique Works of Art from Benin"
 		</p>
         <p className="mx-auto mb-10 max-w-xl text-sm text-muted-foreground">
-          239 artifacts · 11 visual clusters · AI-enhanced reconstructions
+          239 artifacts - 11 visual clusters - AI-enhanced reconstructions
         </p>
         <Button
           onClick={scrollToGallery}

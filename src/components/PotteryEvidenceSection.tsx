@@ -13,7 +13,7 @@ export default function PotteryEvidenceSection() {
           Supporting Figure
         </p>
         <h3 className="mb-4 text-xl font-semibold text-gold">
-          Fig. 26 — Pottery Sketches
+          Fig. 26 - Pottery Sketches
         </h3>
 
         <button
@@ -125,7 +125,7 @@ export default function PotteryEvidenceSection() {
               pan-African framing: Predynastic Egyptian pottery also reflects exchange with the Levant,
               including Palestinian imports in Egyptian graves and Egyptian wares found in Palestinian
               contexts. That introduces a third axis of ceramic interaction beyond a simple
-              Benin–Nubia–Egypt comparison.
+              Benin-Nubia-Egypt comparison.
             </p>
 
             <p>

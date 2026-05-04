@@ -239,7 +239,7 @@ export function ArtifactComparison({ artifact }: Props) {
                   disabled={activeIndex === 0}
                   className="rounded-md border border-white/20 px-3 py-2 text-sm text-white transition hover:bg-white/10 disabled:opacity-30"
                 >
-                  ← Prev
+                  Prev
                 </button>
 
                 <button
@@ -260,7 +260,7 @@ export function ArtifactComparison({ artifact }: Props) {
                   disabled={activeIndex === variants.length - 1}
                   className="rounded-md border border-white/20 px-3 py-2 text-sm text-white transition hover:bg-white/10 disabled:opacity-30"
                 >
-                  Next →
+                  Next
                 </button>
               </div>
             </div>
@@ -273,7 +273,7 @@ export function ArtifactComparison({ artifact }: Props) {
             </div>
 
             <div className="mt-3 text-center text-xs uppercase tracking-wider text-muted-foreground">
-              Hover to zoom · Esc to close · ← → to switch views
+              Hover to zoom - Esc to close - use arrow keys to switch views
             </div>
           </div>
         </div>

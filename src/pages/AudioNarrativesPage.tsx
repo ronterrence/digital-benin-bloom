@@ -2,7 +2,7 @@ import AudioNarrativeBlock from "@/components/AudioNarrativeBlock";
 import { militaryTranscript } from "@/data/transcripts/militaryTranscript";
 import { potteryTranscript } from "@/data/transcripts/potteryTranscript";
 import PotteryEvidenceSection from "@/components/PotteryEvidenceSection";
-import { asset } from "@/lib/asset"; // ← add at top
+import { asset } from "@/lib/asset";
 
 
 
@@ -33,7 +33,7 @@ export default function AudioNarrativesPage() {
         <AudioNarrativeBlock
           id="military"
           title="Military Encounter"
-          description="Based on The Benin Massacre (1897), a firsthand colonial account written by Captain Alan Boisragon, this narrative examines the violent encounter, trade history, and colonial framing that shaped the displacement of Benin’s artworks."
+          description="Based on The Benin Massacre (1897), a firsthand colonial account written by Captain Alan Boisragon, this narrative examines the violent encounter, trade history, and colonial framing that shaped the displacement of Benin's artworks."
 		  audioSrc={asset("audio/benin-expedition-narrative.m4a")}
           transcript={militaryTranscript}
         />

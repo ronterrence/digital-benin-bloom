@@ -58,3 +58,4 @@ scripts/gfpgan/weights/
 *.pth
 data/raw/context_images2_enhanced/
 data/raw/context_images2_enhanced/*.png
+.python-packages/

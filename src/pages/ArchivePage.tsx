@@ -13,12 +13,14 @@ export default function ArchivePage() {
   const [showOnlyMatched, setShowOnlyMatched] = useState(false);
   const progress = useViewProgress();
   const locatedIds = useMemo(() => {
-  return new Set(verifiedMatches.map((m) => m.id));
+  return new Set(
+    verifiedMatches
+      .filter((m) => m.institution && m.museumRecordId)
+      .map((m) => m.id)
+  );
 }, []);
 
-const locatedCount = useMemo(() => {
-  return artifacts.filter((a) => locatedIds.has(a.id)).length;
-}, [locatedIds]);
+  const locatedCount = locatedIds.size;
 
   const clusteredArtifacts = useMemo(() => {
   const map = new Map<number, Artifact[]>();
@@ -118,14 +120,14 @@ const locatedCount = useMemo(() => {
       <div className="mt-20 text-center">
         <p className="mx-auto mb-4 max-w-2xl text-sm italic text-muted-foreground">
           These objects were once part of a living kingdom. Their presence here is tied to
-          the events of 1897 — explored further in the audio narratives.
+          the events of 1897 - explored further in the audio narratives.
         </p>
 
         <Link
           to="/audio"
           className="inline-block mt-2 text-gold font-medium tracking-wide hover:opacity-80 transition"
         >
-          Listen to the narrative →
+          Listen to the narrative
         </Link>
       </div>
 

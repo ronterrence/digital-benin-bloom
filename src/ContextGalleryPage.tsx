@@ -11,11 +11,11 @@ type ContextImage = {
 };
 
 function getRestoredUrl(file: string) {
-  return `${import.meta.env.BASE_URL}benin_output/context/${file}`;
+  return `${import.meta.env.BASE_URL}benin_output/context_images2_web/${file}`;
 }
 
 function getOriginalUrl(file: string) {
-  return `${import.meta.env.BASE_URL}benin_output/images_expedition/${file}`;
+  return `${import.meta.env.BASE_URL}benin_output/context/${file}`;
 }
 
 export default function ContextGalleryPage() {

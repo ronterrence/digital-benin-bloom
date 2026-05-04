@@ -11,6 +11,7 @@ export default function Navbar() {
     { name: "British Museum", path: "/british-museum" },
     { name: "Survival", path: "/survival" },
     { name: "Epilogue", path: "/epilogue" },
+    { name: "Context", path: "/context" },
     { name: "About", path: "/about" },
   ];
 

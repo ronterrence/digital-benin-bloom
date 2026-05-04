@@ -13,12 +13,14 @@ export default function ArchivePage() {
   const [showOnlyMatched, setShowOnlyMatched] = useState(false);
   const progress = useViewProgress();
   const locatedIds = useMemo(() => {
-  return new Set(verifiedMatches.map((m) => m.id));
+  return new Set(
+    verifiedMatches
+      .filter((m) => m.institution && m.museumRecordId)
+      .map((m) => m.id)
+  );
 }, []);
 
-const locatedCount = useMemo(() => {
-  return artifacts.filter((a) => locatedIds.has(a.id)).length;
-}, [locatedIds]);
+  const locatedCount = locatedIds.size;
 
   const clusteredArtifacts = useMemo(() => {
   const map = new Map<number, Artifact[]>();

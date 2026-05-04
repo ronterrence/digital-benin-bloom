@@ -7,11 +7,12 @@ import BritishMuseumPage from "./BritishMuseumPage";
 import HomePage from "./pages/HomePage";
 import AudioNarrativesPage from "./pages/AudioNarrativesPage";
 import ArchivePage from "./pages/ArchivePage";
-import MapPage from './MapPage';
+import MapPage from "./MapPage";
 import SurvivalPage from "./pages/SurvivalPage";
 import EpiloguePage from "./pages/EpiloguePage";
 import AboutPage from "./pages/AboutPage";
-import OxfordPage from './OxfordPage';
+import OxfordPage from "./OxfordPage";
+import ContextGalleryPage from "./ContextGalleryPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -31,6 +32,7 @@ const App = () => (
           <Route path="/map" element={<MapPage />} />
           <Route path="/oxford" element={<OxfordPage />} />
           <Route path="/british-museum" element={<BritishMuseumPage />} />
+          <Route path="/context" element={<ContextGalleryPage />} />
           <Route path="/survival" element={<SurvivalPage />} />
           <Route path="/epilogue" element={<EpiloguePage />} />
           <Route path="/about" element={<AboutPage />} />

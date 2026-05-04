@@ -158,7 +158,7 @@ export default function AboutPage() {
                   <span className="mt-2">Archival Source</span>
                 </div>
 
-                <span className="hidden md:block text-muted-foreground/40">→</span>
+                <span className="hidden md:block text-muted-foreground/40">-&gt;</span>
 
                 <div className="flex flex-col items-center text-center">
 				<div className="rounded-full border border-border/50 px-4 py-2 transition hover:border-gold/40">                    Enhance
@@ -166,7 +166,7 @@ export default function AboutPage() {
                   <span className="mt-2">Super-resolution</span>
                 </div>
 
-                <span className="hidden md:block">→</span>
+                <span className="hidden md:block">-&gt;</span>
 
                 <div className="flex flex-col items-center text-center">
 				<div className="rounded-full border border-border/50 px-4 py-2 transition hover:border-gold/40">                    Preserve
@@ -174,7 +174,7 @@ export default function AboutPage() {
                   <span className="mt-2">Edge / Structure</span>
                 </div>
 
-                <span className="hidden md:block">→</span>
+                <span className="hidden md:block">-&gt;</span>
 
                 <div className="flex flex-col items-center text-center">
 				<div className="rounded-full border border-border/50 px-4 py-2 transition hover:border-gold/40">				  
@@ -183,7 +183,7 @@ export default function AboutPage() {
                   <span className="mt-2">Bronze Tone</span>
                 </div>
 
-                <span className="hidden md:block">→</span>
+                <span className="hidden md:block">-&gt;</span>
 
                 <div className="flex flex-col items-center text-center">
 				<div className="rounded-full border border-border/50 px-4 py-2 transition hover:border-gold/40">                    Output
@@ -193,7 +193,7 @@ export default function AboutPage() {
               </div>
 
               <p className="mt-6 max-w-2xl text-xs italic text-muted-foreground">
-                Non-generative pipeline — structure preserved from original archival material.
+                Non-generative pipeline - structure preserved from original archival material.
               </p>
             </div>
           </div>

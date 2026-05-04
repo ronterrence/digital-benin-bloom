@@ -3,12 +3,15 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Navbar from "@/components/Navbar";
+import BritishMuseumPage from "./BritishMuseumPage";
 import HomePage from "./pages/HomePage";
 import AudioNarrativesPage from "./pages/AudioNarrativesPage";
 import ArchivePage from "./pages/ArchivePage";
+import MapPage from './MapPage';
 import SurvivalPage from "./pages/SurvivalPage";
 import EpiloguePage from "./pages/EpiloguePage";
 import AboutPage from "./pages/AboutPage";
+import OxfordPage from './OxfordPage';
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,6 +28,9 @@ const App = () => (
           <Route path="/home" element={<HomePage />} />
           <Route path="/audio" element={<AudioNarrativesPage />} />
           <Route path="/archive" element={<ArchivePage />} />
+          <Route path="/map" element={<MapPage />} />
+          <Route path="/oxford" element={<OxfordPage />} />
+          <Route path="/british-museum" element={<BritishMuseumPage />} />
           <Route path="/survival" element={<SurvivalPage />} />
           <Route path="/epilogue" element={<EpiloguePage />} />
           <Route path="/about" element={<AboutPage />} />

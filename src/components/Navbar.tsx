@@ -7,6 +7,8 @@ export default function Navbar() {
     { name: "Home", path: "/" },
     { name: "Audio Narratives", path: "/audio" },
     { name: "Archive", path: "/archive" },
+    { name: "Oxford", path: "/oxford" },
+    { name: "British Museum", path: "/british-museum" },
     { name: "Survival", path: "/survival" },
     { name: "Epilogue", path: "/epilogue" },
     { name: "About", path: "/about" },
@@ -22,7 +24,7 @@ export default function Navbar() {
         </Link>
 
         {/* Right: Navigation Links */}
-        <div className="flex gap-6 text-sm">
+        <div className="flex flex-wrap items-center justify-end gap-x-4 gap-y-2 text-xs md:text-sm">
           {links.map((link) => (
             <Link
               key={link.path}

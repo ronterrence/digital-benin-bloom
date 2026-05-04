@@ -18,8 +18,43 @@ dist-ssr
 !.vscode/extensions.json
 .idea
 .DS_Store
+Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+enhance_env/
+sd_env/
+
+# Model weights
+weights/
+scripts/gfpgan/weights/
+*.pth
+
+# Large / nonessential outputs
+archive/
+benin_output/clusters/
+benin_output/sd_recon/
+data/raw/context_images2_enhanced/
+data/raw/context_images3_enhanced/
+
+# Local test files
+sd_test.py
+
+# Large local source files
+benincollections_danhicks.pdf
+scripts/gfpgan/weights/
+*.pth
+data/raw/context_images2_enhanced/
+scripts/gfpgan/weights/
+scripts/gfpgan/weights/
+*.pth
+data/raw/context_images2_enhanced/
+data/raw/context_images2_enhanced/*.png

@@ -1,79 +1,109 @@
-<svg width="100%" viewBox="0 0 680 620" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 680 660" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Full West African ceramic heritage map</title>
+<desc>Four parallel streams of ceramic heritage: Nok-Ife-Benin forest belt; Igbo-Ukwu independent; Sao-Kanem-Borno Chad Basin; Hausa Saharan-influenced. All sharing pan-African roots.</desc>
 <defs>
-<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
-<mask id="imagine-text-gaps-emv6b4" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="680" height="620" fill="white"/><rect x="170.97996520996094" y="17.972198486328125" width="337.66510009765625" height="20.055599212646484" fill="black" rx="2"/><rect x="399.7442626953125" y="70.55552673339844" width="99.80360412597656" height="22.888940811157227" fill="black" rx="2"/><rect x="391.1483154296875" y="89.97219848632812" width="118.23323822021484" height="20.055599212646484" fill="black" rx="2"/><rect x="400.7550964355469" y="190.55552673339844" width="98.14707946777344" height="22.888940811157227" fill="black" rx="2"/><rect x="379.9108581542969" y="209.97219848632812" width="140.17831420898438" height="20.055599212646484" fill="black" rx="2"/><rect x="188.7902374267578" y="190.55552673339844" width="82.53193664550781" height="22.888940811157227" fill="black" rx="2"/><rect x="154.72373962402344" y="209.97219848632812" width="150.55247497558594" height="20.055599212646484" fill="black" rx="2"/><rect x="168.73548889160156" y="390.5555114746094" width="122.85577392578125" height="22.888940811157227" fill="black" rx="2"/><rect x="160.47158813476562" y="409.9721984863281" width="139.59832763671875" height="20.055599212646484" fill="black" rx="2"/><rect x="257.16815185546875" y="500.5555114746094" width="166.26341247558594" height="22.888940811157227" fill="black" rx="2"/><rect x="251.84825134277344" y="519.9722290039062" width="176.8409423828125" height="20.055599212646484" fill="black" rx="2"/><rect x="455.9999694824219" y="143.97219848632812" width="147.00120544433594" height="20.055599212646484" fill="black" rx="2"/><rect x="233.99998474121094" y="299.9721984863281" width="84.7740249633789" height="20.055599212646484" fill="black" rx="2"/><rect x="279.09405517578125" y="179.77774047851562" width="94.46379852294922" height="20.055599212646484" fill="black" rx="2"/><rect x="43.999996185302734" y="497.9721984863281" width="47.10601043701172" height="20.055599212646484" fill="black" rx="2"/><rect x="80" y="513.9722290039062" width="58.670875549316406" height="20.055599212646484" fill="black" rx="2"/><rect x="80" y="531.9722290039062" width="73.8864974975586" height="20.055599212646484" fill="black" rx="2"/><rect x="80" y="547.97216796875" width="46.647117614746094" height="20.055599212646484" fill="black" rx="2"/><rect x="188.0819091796875" y="310.5555419921875" width="83.00479888916016" height="22.888940811157227" fill="black" rx="2"/><rect x="168.6764678955078" y="327.9721984863281" width="122.64701843261719" height="20.055599212646484" fill="black" rx="2"/></mask></defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+<style>
+rect.box { fill:#F1EFE8; stroke:#888780; }
+rect.amber { fill:#FAEEDA; stroke:#854F0B; }
+rect.teal { fill:#E1F5EE; stroke:#0F6E56; }
+rect.purple { fill:#EEEDFE; stroke:#534AB7; }
+rect.coral { fill:#FAECE7; stroke:#993C1D; }
+rect.blue { fill:#E6F1FB; stroke:#185FA5; }
+rect.gray { fill:#F1EFE8; stroke:#5F5E5A; }
+text.th { font-family: sans-serif; font-size:13px; font-weight:600; fill:#2C2C2A; }
+text.ts { font-family: sans-serif; font-size:11px; fill:#5F5E5A; }
+text.amber { fill:#633806; }
+text.teal { fill:#085041; }
+text.purple { fill:#3C3489; }
+text.coral { fill:#712B13; }
+text.blue { fill:#0C447C; }
+</style>
+</defs>
 
-<!-- Background geography (simplified Africa outline suggestion) -->
-<text x="340" y="28" text-anchor="middle" dominant-baseline="central" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">Ancient African pottery traditions — heritage and connections</text>
+<rect class="gray" x="190" y="20" width="300" height="44" rx="8" stroke-width="0.5"/>
+<text class="th" x="340" y="38" text-anchor="middle">Pan-African ceramic root</text>
+<text class="ts" x="340" y="54" text-anchor="middle">Ounjougou c.9400 BCE / Nubia c.8000 BCE</text>
 
-<!-- NUBIA node -->
-<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
-  <rect x="360" y="60" width="180" height="64" rx="8" stroke-width="0.5" style="fill:rgb(225, 245, 238);stroke:rgb(15, 110, 86);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-  <text x="450" y="82" text-anchor="middle" dominant-baseline="central" style="fill:rgb(8, 80, 65);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Ancient Nubia</text>
-  <text x="450" y="100" text-anchor="middle" dominant-baseline="central" style="fill:rgb(15, 110, 86);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">c. 8000 BCE – 350 CE</text>
-</g>
+<line x1="260" y1="64" x2="148" y2="124" stroke="#888780" stroke-width="1" marker-end="url(#arrow)" fill="none"/>
+<line x1="310" y1="64" x2="265" y2="124" stroke="#888780" stroke-width="1" marker-end="url(#arrow)" fill="none"/>
+<line x1="370" y1="64" x2="420" y2="124" stroke="#888780" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow)" fill="none"/>
+<line x1="430" y1="64" x2="555" y2="124" stroke="#888780" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow)" fill="none"/>
 
-<!-- EGYPT node -->
-<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
-  <rect x="360" y="180" width="180" height="64" rx="8" stroke-width="0.5" style="fill:rgb(250, 238, 218);stroke:rgb(133, 79, 11);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-  <text x="450" y="202" text-anchor="middle" dominant-baseline="central" style="fill:rgb(99, 56, 6);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Ancient Egypt</text>
-  <text x="450" y="220" text-anchor="middle" dominant-baseline="central" style="fill:rgb(133, 79, 11);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">Predynastic – Late Period</text>
-</g>
+<rect class="amber" x="40" y="124" width="190" height="56" rx="8" stroke-width="0.5"/>
+<text class="th amber" x="135" y="145" text-anchor="middle">Nok culture</text>
+<text class="ts" x="135" y="163" text-anchor="middle">1500 BCE–200 CE, Jos Plateau</text>
 
-<!-- NOK culture node -->
-<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
-  <rect x="140" y="180" width="180" height="64" rx="8" stroke-width="0.5" style="fill:rgb(250, 236, 231);stroke:rgb(153, 60, 29);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-  <text x="230" y="202" text-anchor="middle" dominant-baseline="central" style="fill:rgb(113, 43, 19);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Nok culture</text>
-  <text x="230" y="220" text-anchor="middle" dominant-baseline="central" style="fill:rgb(153, 60, 29);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">1500 BCE – 200 CE, Nigeria</text>
-</g>
+<rect class="teal" x="240" y="124" width="190" height="56" rx="8" stroke-width="0.5"/>
+<text class="th teal" x="335" y="145" text-anchor="middle">Igbo-Ukwu / Nri</text>
+<text class="ts" x="335" y="163" text-anchor="middle">9th–12th c. CE, independent</text>
 
-<!-- BENIN node -->
-<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
-  <rect x="140" y="380" width="180" height="64" rx="8" stroke-width="0.5" style="fill:rgb(238, 237, 254);stroke:rgb(83, 74, 183);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-  <text x="230" y="402" text-anchor="middle" dominant-baseline="central" style="fill:rgb(60, 52, 137);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Kingdom of Benin</text>
-  <text x="230" y="420" text-anchor="middle" dominant-baseline="central" style="fill:rgb(83, 74, 183);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">c. 13th – 19th century CE</text>
-</g>
+<rect class="purple" x="440" y="124" width="200" height="56" rx="8" stroke-width="0.5"/>
+<text class="th purple" x="540" y="145" text-anchor="middle">Sao civilisation</text>
+<text class="ts" x="540" y="163" text-anchor="middle">6th c. BCE–16th c. CE, Chad Basin</text>
 
-<!-- Pan-African root node -->
-<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
-  <rect x="240" y="490" width="200" height="64" rx="8" stroke-width="0.5" style="fill:rgb(241, 239, 232);stroke:rgb(95, 94, 90);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-  <text x="340" y="512" text-anchor="middle" dominant-baseline="central" style="fill:rgb(68, 68, 65);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Pan-African ceramic root</text>
-  <text x="340" y="530" text-anchor="middle" dominant-baseline="central" style="fill:rgb(95, 94, 90);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">Ounjougou, Mali — c. 9400 BCE</text>
-</g>
+<line x1="135" y1="180" x2="135" y2="250" stroke="#BA7517" stroke-width="1.5" marker-end="url(#arrow)" fill="none"/>
 
-<!-- Arrows: Nubia <-> Egypt (bidirectional strong exchange) -->
-<line x1="450" y1="124" x2="450" y2="178" stroke="#1D9E75" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="460" y="154" dominant-baseline="central" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">colonial &amp; trade exchange</text>
+<rect class="amber" x="40" y="250" width="190" height="56" rx="8" stroke-width="0.5"/>
+<text class="th amber" x="135" y="271" text-anchor="middle">Ife (Yoruba)</text>
+<text class="ts" x="135" y="289" text-anchor="middle">12th–15th c. CE</text>
 
-<!-- Arrow: Nok -> Benin (cultural lineage) -->
-<line x1="230" y1="244" x2="230" y2="378" stroke="#993C1D" stroke-width="2" marker-end="url(#arrow)" mask="url(#imagine-text-gaps-emv6b4)" style="fill:none;stroke:rgb(115, 114, 108);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="238" y="310" dominant-baseline="central" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">artistic lineage</text>
+<line x1="335" y1="180" x2="277" y2="250" stroke="#888780" stroke-width="0.7" stroke-dasharray="4 3" marker-end="url(#arrow)" fill="none"/>
+<text class="ts" x="295" y="222" text-anchor="middle">glass bead link</text>
 
-<!-- Arrow: Nok -> Egypt (trans-Saharan?) dashed -->
-<path d="M318 210 Q360 200 358 212" fill="none" stroke="var(--color-border-secondary)" stroke-width="1.2" stroke-dasharray="5 4" marker-end="url(#arrow)" style="fill:none;stroke:rgba(31, 30, 29, 0.3);color:rgb(0, 0, 0);stroke-width:1.2px;stroke-dasharray:5px, 4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="326" y="195" text-anchor="middle" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">possible contact</text>
+<line x1="540" y1="180" x2="540" y2="250" stroke="#534AB7" stroke-width="1.5" marker-end="url(#arrow)" fill="none"/>
 
-<!-- Arrows from Pan-African root up to Nok and Nubia -->
-<line x1="310" y1="488" x2="245" y2="246" stroke="var(--color-border-secondary)" stroke-width="1.2" stroke-dasharray="4 4" marker-end="url(#arrow)" mask="url(#imagine-text-gaps-emv6b4)" style="fill:none;stroke:rgb(115, 114, 108);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-dasharray:4px, 4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<line x1="370" y1="488" x2="430" y2="126" stroke="var(--color-border-secondary)" stroke-width="1.2" stroke-dasharray="4 4" marker-end="url(#arrow)" mask="url(#imagine-text-gaps-emv6b4)" style="fill:none;stroke:rgb(115, 114, 108);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-dasharray:4px, 4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<rect class="purple" x="440" y="250" width="200" height="56" rx="8" stroke-width="0.5"/>
+<text class="th purple" x="540" y="271" text-anchor="middle">Kanem-Borno Empire</text>
+<text class="ts" x="540" y="289" text-anchor="middle">8th–19th c. CE, Lake Chad</text>
 
-<!-- Legend -->
-<rect x="40" y="490" width="88" height="70" rx="6" fill="var(--color-background-secondary)" stroke="var(--color-border-tertiary)" stroke-width="0.5" style="fill:rgb(245, 244, 237);stroke:rgba(31, 30, 29, 0.15);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="48" y="508" dominant-baseline="central" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">Legend</text>
-<line x1="48" y1="524" x2="78" y2="524" stroke="#1D9E75" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)" style="fill:rgb(0, 0, 0);stroke:rgb(29, 158, 117);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="84" y="524" dominant-baseline="central" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">exchange</text>
-<line x1="48" y1="542" x2="78" y2="542" stroke="var(--color-border-secondary)" stroke-width="1.2" stroke-dasharray="4 4" marker-end="url(#arrow)" style="fill:rgb(0, 0, 0);stroke:rgba(31, 30, 29, 0.3);color:rgb(0, 0, 0);stroke-width:1.2px;stroke-dasharray:4px, 4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="84" y="542" dominant-baseline="central" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">possible link</text>
-<line x1="48" y1="558" x2="78" y2="558" stroke="#993C1D" stroke-width="2" marker-end="url(#arrow)" style="fill:rgb(0, 0, 0);stroke:rgb(153, 60, 29);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="84" y="558" dominant-baseline="central" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">lineage</text>
+<rect x="446" y="196" width="108" height="28" rx="4" fill="none" stroke="#534AB7" stroke-dasharray="4 3" stroke-width="0.5"/>
+<text class="ts purple" x="500" y="208" text-anchor="middle">N.Africa glazed</text>
+<text class="ts purple" x="500" y="220" text-anchor="middle">pottery import</text>
+<line x1="500" y1="224" x2="515" y2="248" stroke="#534AB7" stroke-width="0.7" stroke-dasharray="3 2" marker-end="url(#arrow)" fill="none"/>
 
-<!-- Yoruba link -->
-<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
-  <rect x="140" y="300" width="180" height="52" rx="8" stroke-width="0.5" style="fill:rgb(251, 234, 240);stroke:rgb(153, 53, 86);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-  <text x="230" y="322" text-anchor="middle" dominant-baseline="central" style="fill:rgb(114, 36, 62);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Yoruba / Ife</text>
-  <text x="230" y="338" text-anchor="middle" dominant-baseline="central" style="fill:rgb(153, 53, 86);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">c. 600 BCE – medieval</text>
-</g>
-<line x1="230" y1="244" x2="230" y2="298" stroke="#993C1D" stroke-width="1.5" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<line x1="230" y1="352" x2="230" y2="378" stroke="#993C1D" stroke-width="1.5" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<line x1="135" y1="306" x2="135" y2="376" stroke="#BA7517" stroke-width="1.5" marker-end="url(#arrow)" fill="none"/>
+
+<rect class="coral" x="40" y="376" width="190" height="56" rx="8" stroke-width="0.5"/>
+<text class="th coral" x="135" y="397" text-anchor="middle">Kingdom of Benin</text>
+<text class="ts" x="135" y="415" text-anchor="middle">13th–19th c. CE</text>
+
+<line x1="430" y1="278" x2="365" y2="376" stroke="#888780" stroke-width="0.5" stroke-dasharray="3 2" marker-end="url(#arrow)" fill="none"/>
+<text class="ts" x="395" y="330" text-anchor="middle">savanna trade</text>
+
+<rect class="blue" x="240" y="376" width="190" height="56" rx="8" stroke-width="0.5"/>
+<text class="th blue" x="335" y="397" text-anchor="middle">Hausa city-states</text>
+<text class="ts" x="335" y="415" text-anchor="middle">Kano, Zaria, Sokoto / Sanka ware</text>
+
+<line x1="540" y1="306" x2="432" y2="376" stroke="#534AB7" stroke-width="0.9" stroke-dasharray="4 3" marker-end="url(#arrow)" fill="none"/>
+<text class="ts purple" x="504" y="348" text-anchor="middle">Kanuri influence</text>
+
+<rect x="444" y="336" width="196" height="36" rx="6" fill="none" stroke="#185FA5" stroke-dasharray="4 3" stroke-width="0.5"/>
+<text class="ts blue" x="542" y="353" text-anchor="middle">Trans-Saharan Islamic</text>
+<text class="ts blue" x="542" y="365" text-anchor="middle">ceramic influence</text>
+<line x1="540" y1="372" x2="480" y2="374" stroke="#185FA5" stroke-width="0.7" stroke-dasharray="3 2" marker-end="url(#arrow)" fill="none"/>
+
+<rect x="240" y="464" width="400" height="72" rx="8" fill="none" stroke="#888780" stroke-dasharray="5 4" stroke-width="0.5"/>
+<text class="th" x="440" y="484" text-anchor="middle">Shared regional exchange zone</text>
+<text class="ts" x="440" y="502" text-anchor="middle">Kola nuts, leather, pottery southward</text>
+<text class="ts" x="440" y="518" text-anchor="middle">Salt, glass beads, Saharan goods northward</text>
+
+<line x1="335" y1="432" x2="340" y2="462" stroke="#888780" stroke-width="0.5" marker-end="url(#arrow)" fill="none"/>
+<line x1="540" y1="432" x2="540" y2="462" stroke="#888780" stroke-width="0.5" marker-end="url(#arrow)" fill="none"/>
+<line x1="135" y1="432" x2="258" y2="470" stroke="#888780" stroke-width="0.5" stroke-dasharray="3 3" marker-end="url(#arrow)" fill="none"/>
+
+<rect x="40" y="464" width="185" height="72" rx="8" fill="none" stroke="#C4A882" stroke-dasharray="4 3" stroke-width="0.5"/>
+<text class="th" x="133" y="484" text-anchor="middle">Nile Valley traditions</text>
+<text class="ts" x="133" y="502" text-anchor="middle">Nubia / Egypt (parallel)</text>
+<text class="ts" x="133" y="518" text-anchor="middle">Shared roots — no direct lineage</text>
+
+<rect x="40" y="590" width="16" height="10" rx="2" fill="#BA7517"/>
+<text class="ts" x="62" y="598" dominant-baseline="central">confirmed artistic lineage</text>
+<line x1="228" y1="598" x2="258" y2="598" stroke="#534AB7" stroke-width="1.2" marker-end="url(#arrow)" fill="none"/>
+<text class="ts purple" x="266" y="598" dominant-baseline="central">Islamic/Saharan influence</text>
+<line x1="418" y1="598" x2="448" y2="598" stroke="#888780" stroke-dasharray="4 3" stroke-width="0.7" marker-end="url(#arrow)" fill="none"/>
+<text class="ts" x="456" y="598" dominant-baseline="central">trade / possible link</text>
 
 </svg>

@@ -6,32 +6,33 @@ import { ClusterSection } from '@/components/ClusterSection';
 import { ArtifactModal } from '@/components/ArtifactModal';
 import { ProgressTracker } from '@/components/ProgressTracker';
 import { Link } from "react-router-dom";
-import { atlas } from '@/data/atlas';
+import { verifiedMatches } from '@/data/verifiedMatches';
 
 export default function ArchivePage() {
   const [selectedArtifact, setSelectedArtifact] = useState<Artifact | null>(null);
   const [showOnlyMatched, setShowOnlyMatched] = useState(false);
   const progress = useViewProgress();
+  const locatedIds = useMemo(() => {
+  return new Set(verifiedMatches.map((m) => m.id));
+}, []);
 
-  const atlasMatchCount = useMemo(() => {
-    const artifactIds = new Set(artifacts.map((a) => a.id));
-    return atlas.filter((a) => artifactIds.has(a.id)).length;
-  }, []);
+const locatedCount = useMemo(() => {
+  return artifacts.filter((a) => locatedIds.has(a.id)).length;
+}, [locatedIds]);
 
   const clusteredArtifacts = useMemo(() => {
-    const matchedIds = new Set(atlas.map((a) => a.id));
-    const map = new Map<number, Artifact[]>();
+  const map = new Map<number, Artifact[]>();
 
-    for (const a of artifacts) {
-      if (showOnlyMatched && !matchedIds.has(a.id)) continue;
+  for (const a of artifacts) {
+    if (showOnlyMatched && !locatedIds.has(a.id)) continue;
 
-      const list = map.get(a.cluster) || [];
-      list.push(a);
-      map.set(a.cluster, list);
-    }
+    const list = map.get(a.cluster) || [];
+    list.push(a);
+    map.set(a.cluster, list);
+  }
 
-    return Array.from(map.entries()).sort(([a], [b]) => a - b);
-  }, [showOnlyMatched]);
+  return Array.from(map.entries()).sort(([a], [b]) => a - b);
+}, [showOnlyMatched, locatedIds]);
 
   const renderedArtifacts = useMemo(() => {
     return clusteredArtifacts.flatMap(([, arts]) => arts);
@@ -79,7 +80,7 @@ export default function ArchivePage() {
         </p>
 
         <p className="mt-2 text-sm text-muted-foreground">
-          {atlasMatchCount} objects linked to Oxford 1897 collection
+        {locatedCount} objects currently located through museum cross-reference
         </p>
 
         <div className="mt-4 flex flex-wrap items-center justify-center gap-3">

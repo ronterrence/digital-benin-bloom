@@ -290,7 +290,7 @@ export default function ContextGalleryPage() {
                   </div>
 
                   <p className="text-xs uppercase tracking-wider text-muted-foreground">
-                    Esc to close · ← / → to browse
+                    ESC to close · Previous / Next to browse
                   </p>
                 </div>
               </div>

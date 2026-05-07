@@ -59,3 +59,4 @@ scripts/gfpgan/weights/
 data/raw/context_images2_enhanced/
 data/raw/context_images2_enhanced/*.png
 .python-packages/
+ public/benin_output/metmuseum/

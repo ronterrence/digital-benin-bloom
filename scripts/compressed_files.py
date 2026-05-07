@@ -4,8 +4,8 @@ import shutil
 
 from pathlib import Path
 
-INPUT_FOLDER = Path(r"C:\Users\ron\Documents\project\digital-benin-bloom\data\raw\context_images2_enhanced")
-OUTPUT_FOLDER = Path(r"C:\Users\ron\Documents\project\digital-benin-bloom\data\raw\context_images2_web")
+INPUT_FOLDER = Path(r"C:\Users\ron\Documents\project\digital-benin-bloom\public\benin_output\metmuseum")
+OUTPUT_FOLDER = Path(r"C:\Users\ron\Documents\project\digital-benin-bloom\public\benin_output\metmuseum_compressed")
 MAX_MB = 1
 MAX_BYTES = MAX_MB * 1024 * 1024
 
@@ -70,11 +70,11 @@ for file in INPUT_FOLDER.iterdir():
 
     print(f"Processing: {file.name}")
 
-    output_file = OUTPUT_FOLDER / f"{file.stem}_compressed.jpg"
+    output_file = OUTPUT_FOLDER / f"{file.stem}.jpg"
 
     compressed_file = compress_image(file, output_file)
 
     print(
-        f"Saved: {compressed_file.name} â€” "
+        f"Saved: {compressed_file.name} - Original: {file_size_mb(file):.2f} MB, Compressed: "
         f"{file_size_mb(compressed_file):.2f} MB"
     )

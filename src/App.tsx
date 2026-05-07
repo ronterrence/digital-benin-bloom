@@ -4,6 +4,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Navbar from "@/components/Navbar";
 import BritishMuseumPage from "./BritishMuseumPage";
+import MetMuseumPage from './MetMuseumPage';
 import HomePage from "./pages/HomePage";
 import AudioNarrativesPage from "./pages/AudioNarrativesPage";
 import ArchivePage from "./pages/ArchivePage";
@@ -32,6 +33,7 @@ const App = () => (
           <Route path="/map" element={<MapPage />} />
           <Route path="/oxford" element={<OxfordPage />} />
           <Route path="/british-museum" element={<BritishMuseumPage />} />
+          <Route path="/met-museum" element={<MetMuseumPage />} />
           <Route path="/context" element={<ContextGalleryPage />} />
           <Route path="/survival" element={<SurvivalPage />} />
           <Route path="/epilogue" element={<EpiloguePage />} />

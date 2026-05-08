@@ -13,6 +13,7 @@ import SurvivalPage from "./pages/SurvivalPage";
 import EpiloguePage from "./pages/EpiloguePage";
 import AboutPage from "./pages/AboutPage";
 import OxfordPage from "./OxfordPage";
+import RestitutionPage from './RestitutionPage';
 import ContextGalleryPage from "./ContextGalleryPage";
 import NotFound from "./pages/NotFound";
 
@@ -38,6 +39,7 @@ const App = () => (
           <Route path="/survival" element={<SurvivalPage />} />
           <Route path="/epilogue" element={<EpiloguePage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/restitution" element={<RestitutionPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

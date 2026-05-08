@@ -10,6 +10,7 @@ export default function Navbar() {
     { name: "Oxford", path: "/oxford" },
     { name: "British Museum", path: "/british-museum" },
     { name: "Met Museum", path: "/met-museum" },
+    { name: "Restitution", path: "/restitution" },
     { name: "Survival", path: "/survival" },
     { name: "Epilogue", path: "/epilogue" },
     { name: "Context", path: "/context" },

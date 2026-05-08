@@ -12,6 +12,8 @@ export type RestitutionRecord = {
   inventoryNumber: string;
   objectUrl: string;
 
+  imageFile?: string;
+
   objectType?: string;
   productionDate?: string;
   productionPlace?: string;
@@ -50,6 +52,8 @@ export const restitutionRecords: RestitutionRecord[] = [
     inventoryNumber: "1897.472",
     objectUrl: "https://www.mkg-hamburg.de/en/object/dc00123526",
 
+    imageFile: "1897.472-1.jpg",
+
     objectType: "Commemorative royal head",
     productionDate: "Early 17th century",
     productionPlace: "Benin",
@@ -66,8 +70,7 @@ export const restitutionRecords: RestitutionRecord[] = [
       "Kopf eines Oba (Königs), Museum für Kunst & Gewerbe Hamburg, Public Domain.",
 
     provenanceResearchStatus: "Identified as looted art",
-    restitutionStatus:
-      "Ownership transfer signed",
+    restitutionStatus: "Ownership transfer signed",
     physicalStatus:
       "Transferred from MK&G to MARKK; ownership-transfer and return agreement signed with Nigeria in 2022. Further institutional questions are directed to MARKK.",
 

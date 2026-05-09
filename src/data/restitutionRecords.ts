@@ -154,4 +154,62 @@ export const restitutionRecords: RestitutionRecord[] = [
     },
   ],
 },
+{
+  id: "mkg_dc00123684",
+  institution: "Museum für Kunst & Gewerbe Hamburg",
+  institutionShortName: "MK&G",
+  transferInstitution: "Museum am Rothenbaum – Kulturen und Künste der Welt",
+  transferInstitutionShortName: "MARKK",
+  city: "Hamburg",
+  country: "Germany",
+
+  title: "Reliefplatte (Drei Würdenträger)",
+  englishTitle: "Relief Plaque (Three Dignitaries)",
+  inventoryNumber: "1911.454",
+  objectUrl: "https://www.mkg-hamburg.de/en/object/dc00123684",
+
+  imageFile: "1911.454-1.jpg",
+
+  objectType: "Relief plaque",
+  productionDate: "Last quarter of the 16th century",
+  productionPlace: "Benin",
+  culture: "Benin / Edo",
+  material: "Bronze, iron",
+  technique: "Cast",
+  dimensions: "Height 44 cm; width 36 cm",
+  rights: "Public Domain",
+
+  description:
+    "Relief plaque showing three dignitaries leading a sacrificial ritual in the palace of the Oba. The central and right figures are described as members of the Emuru guild, each holding a bronze rattle. The plaque once hung in a large hall and probably had a polished surface.",
+
+  citation:
+    "Reliefplatte (Drei Würdenträger), Museum für Kunst & Gewerbe Hamburg, Public Domain.",
+
+  provenanceResearchStatus: "Identified as looted art",
+  restitutionStatus: "Ownership transfer signed",
+  physicalStatus:
+    "Transferred from MK&G to MARKK; ownership-transfer and return agreement signed with Nigeria in 2022. Further institutional questions are directed to MARKK.",
+
+  restitutionTimeline: [
+    {
+      year: 2016,
+      event:
+        "MK&G provenance research concluded that the Benin Bronzes were looted art.",
+    },
+    {
+      year: 2018,
+      event:
+        "Hamburg decided to transfer the Benin Bronzes from MK&G to MARKK.",
+    },
+    {
+      date: "2021-09-30",
+      event: "The Benin Bronzes were handed over to MARKK.",
+    },
+    {
+      date: "2022-12-16",
+      event:
+        "A contract for full ownership transfer and return of the bronzes to Nigeria was signed.",
+    },
+  ],
+},
 ];

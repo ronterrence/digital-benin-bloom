@@ -10,11 +10,16 @@ export default function Navbar() {
     { name: "Oxford", path: "/oxford" },
     { name: "British Museum", path: "/british-museum" },
     { name: "Met Museum", path: "/met-museum" },
+<<<<<<< HEAD
     { name: "Restitution", path: "/restitution" },
+=======
+    { name: "SMB", path: "/smb" },
+>>>>>>> experiment-audio
     { name: "Survival", path: "/survival" },
     { name: "Epilogue", path: "/epilogue" },
     { name: "Context", path: "/context" },
     { name: "About", path: "/about" },
+    
   ];
 
   return (

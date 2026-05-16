@@ -9,8 +9,8 @@ from realesrgan import RealESRGANer
 # =========================
 # PATHS
 # =========================
-INPUT_DIR = Path(r"C:\Users\ron\Documents\project\digital-benin-bloom\data\raw\context_images")
-OUTPUT_DIR = Path(r"C:\Users\ron\Documents\project\digital-benin-bloom\data\raw\context_images3_enhanced")
+INPUT_DIR = Path(r"C:\Users\ron\Documents\project\digital-benin-bloom\context_images")
+OUTPUT_DIR = Path(r"C:\Users\ron\Documents\project\digital-benin-bloom\context_images3_enhanced")
 
 MODEL_PATH = Path(r"C:\Users\ron\Documents\project\RealESRGAN_x4plus.pth")
 UPSCALE = 4

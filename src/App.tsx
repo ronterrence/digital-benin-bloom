@@ -13,7 +13,11 @@ import SurvivalPage from "./pages/SurvivalPage";
 import EpiloguePage from "./pages/EpiloguePage";
 import AboutPage from "./pages/AboutPage";
 import OxfordPage from "./OxfordPage";
+<<<<<<< HEAD
 import RestitutionPage from './RestitutionPage';
+=======
+import SMBPage from './SMBPage';
+>>>>>>> experiment-audio
 import ContextGalleryPage from "./ContextGalleryPage";
 import NotFound from "./pages/NotFound";
 
@@ -39,7 +43,11 @@ const App = () => (
           <Route path="/survival" element={<SurvivalPage />} />
           <Route path="/epilogue" element={<EpiloguePage />} />
           <Route path="/about" element={<AboutPage />} />
+<<<<<<< HEAD
           <Route path="/restitution" element={<RestitutionPage />} />
+=======
+          <Route path="/smb" element={<SMBPage />} />
+>>>>>>> experiment-audio
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

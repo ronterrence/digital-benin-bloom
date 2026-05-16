@@ -4,7 +4,9 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Navbar from "@/components/Navbar";
 import BritishMuseumPage from "./BritishMuseumPage";
-import MetMuseumPage from './MetMuseumPage';
+import MetMuseumPage from "./MetMuseumPage";
+import SMBPage from "./SMBPage";
+import RestitutionPage from "./RestitutionPage";
 import HomePage from "./pages/HomePage";
 import AudioNarrativesPage from "./pages/AudioNarrativesPage";
 import ArchivePage from "./pages/ArchivePage";
@@ -13,11 +15,6 @@ import SurvivalPage from "./pages/SurvivalPage";
 import EpiloguePage from "./pages/EpiloguePage";
 import AboutPage from "./pages/AboutPage";
 import OxfordPage from "./OxfordPage";
-<<<<<<< HEAD
-import RestitutionPage from './RestitutionPage';
-=======
-import SMBPage from './SMBPage';
->>>>>>> experiment-audio
 import ContextGalleryPage from "./ContextGalleryPage";
 import NotFound from "./pages/NotFound";
 
@@ -39,15 +36,12 @@ const App = () => (
           <Route path="/oxford" element={<OxfordPage />} />
           <Route path="/british-museum" element={<BritishMuseumPage />} />
           <Route path="/met-museum" element={<MetMuseumPage />} />
+          <Route path="/smb" element={<SMBPage />} />
+          <Route path="/restitution" element={<RestitutionPage />} />
           <Route path="/context" element={<ContextGalleryPage />} />
           <Route path="/survival" element={<SurvivalPage />} />
           <Route path="/epilogue" element={<EpiloguePage />} />
           <Route path="/about" element={<AboutPage />} />
-<<<<<<< HEAD
-          <Route path="/restitution" element={<RestitutionPage />} />
-=======
-          <Route path="/smb" element={<SMBPage />} />
->>>>>>> experiment-audio
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

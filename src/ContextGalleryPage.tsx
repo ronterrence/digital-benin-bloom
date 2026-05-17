@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { contextImages } from '@/data/contextImages';
+import { contextSources } from '@/data/contextSources';
 
 type ContextImage = {
   id: string;
@@ -92,12 +93,67 @@ export default function ContextGalleryPage() {
           </p>
 
           <p className="mt-3 text-sm text-muted-foreground">
-            {contextImages.length} images - Pages {pageRange}
+            {contextImages.length} images - Historical context set
           </p>
         </div>
 
-        <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {contextImages.map((image, index) => (
+        {contextSources.length > 0 && (
+          <div className="mx-auto mt-8 max-w-5xl rounded-xl border border-border/40 bg-card/40 p-5 text-left">            <p className="mb-3 text-xs uppercase tracking-wider text-muted-foreground">
+              Critical context notes
+            </p>
+
+            <div className="space-y-4">
+              {contextSources.map((source) => (
+                <div key={source.id} className="text-sm leading-7">
+                  <a
+                    href={source.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="font-medium text-primary underline-offset-4 hover:underline"
+                  >
+                    {source.title}
+                  </a>
+
+                  <p className="text-muted-foreground">{source.source}</p>
+
+                  {source.imageCredit && (
+                    <p className="mt-2 text-xs text-muted-foreground">
+                      Image credit: {source.imageCredit}
+                    </p>
+                  )}
+
+                  {source.sourceCaption && (
+                    <div className="mt-3 rounded-lg border border-border/30 bg-background/40 p-4">
+                      <p className="mb-2 text-xs uppercase tracking-wider text-muted-foreground">
+                        External source caption
+                      </p>
+                      <p className="text-sm leading-7 text-muted-foreground">
+                        {source.sourceCaption}
+                      </p>
+                    </div>
+                  )}
+
+                  {source.interpretiveNote && (
+                    <div className="mt-3 rounded-lg border border-primary/20 bg-primary/5 p-4">
+                      <p className="mb-2 text-xs uppercase tracking-wider text-primary">
+                        Interpretive note
+                      </p>
+                      <p className="text-sm leading-7 text-foreground">
+                        {source.interpretiveNote}
+                      </p>
+                    </div>
+                  )}
+
+                  <p className="mt-3 text-xs leading-6 text-muted-foreground">
+                    {source.note}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+            <div className="mx-auto mt-10 grid max-w-6xl grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">          {contextImages.map((image, index) => (
             <button
               key={image.id}
               type="button"
@@ -158,7 +214,7 @@ export default function ContextGalleryPage() {
                   disabled={!hasPrev}
                   className="rounded-md border border-border/50 px-3 py-2 text-sm text-foreground transition hover:bg-muted disabled:cursor-not-allowed disabled:opacity-40"
                 >
-                <p>Previous</p>
+                  Previous
                 </button>
 
                 <button
@@ -166,7 +222,7 @@ export default function ContextGalleryPage() {
                   onClick={() => setSelectedIndex(null)}
                   className="rounded-md border border-border/50 px-3 py-2 text-sm text-foreground transition hover:bg-muted"
                 >
-                <p>Close</p>
+                  Close
                 </button>
 
                 <button
@@ -175,7 +231,7 @@ export default function ContextGalleryPage() {
                   disabled={!hasNext}
                   className="rounded-md border border-border/50 px-3 py-2 text-sm text-foreground transition hover:bg-muted disabled:cursor-not-allowed disabled:opacity-40"
                 >
-                    Next
+                  Next
                 </button>
               </div>
             </div>

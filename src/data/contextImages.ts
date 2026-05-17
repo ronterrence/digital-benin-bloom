@@ -1,4 +1,16 @@
 ﻿export const contextImages = [
+  
+  {
+  id: 'context_1892_galway_benin_chiefs',
+  page: 1892,
+  title: 'Pre-1897 colonial pressure: Galway meeting, 1892',
+  caption: 'Reference image connected to the 1892 meeting between Benin chiefs and British Vice-Consul Henry Galway, used here to frame the pre-1897 political and commercial pressure surrounding trade, sovereignty, and colonial expansion.',
+            
+  originalFile: 'ezgi.png',
+  restoredFile: 'ezgi_enhanced.png',
+  },
+
+
   {
     id: 'page_195',
     page: 195,

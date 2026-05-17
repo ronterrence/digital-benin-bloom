@@ -47,10 +47,13 @@ export default function ContextGalleryPage() {
     setViewMode('restored');
   };
 
-  const pageRange = useMemo(() => {
-    const pages = contextImages.map((image) => image.page);
-    return `${Math.min(...pages)}-${Math.max(...pages)}`;
-  }, []);
+  const featuredImage = contextImages.find(
+    (image) => image.id === 'context_1892_galway_benin_chiefs'
+  ) as ContextImage | undefined;
+
+  const remainingImages = contextImages.filter(
+    (image) => image.id !== 'context_1892_galway_benin_chiefs'
+  );
 
   useEffect(() => {
     if (selectedIndex === null) return;
@@ -97,12 +100,57 @@ export default function ContextGalleryPage() {
           </p>
         </div>
 
-        {contextSources.length > 0 && (
-          <div className="mx-auto mt-8 max-w-5xl rounded-xl border border-border/40 bg-card/40 p-5 text-left">            <p className="mb-3 text-xs uppercase tracking-wider text-muted-foreground">
-              Critical context notes
-            </p>
+        {featuredImage && contextSources.length > 0 && (
+          <div className="mx-auto mt-8 grid max-w-6xl gap-5 lg:grid-cols-[1.05fr_0.5fr]">
+            <button
+              type="button"
+              onClick={() => {
+                const index = contextImages.findIndex(
+                  (image) => image.id === featuredImage.id
+                );
+                setSelectedIndex(index);
+                setViewMode('restored');
+              }}
+              className="group overflow-hidden rounded-xl border border-border/30 bg-card/40 text-left transition hover:border-primary/30"
+            >
+              <div className="aspect-[4/3] overflow-hidden bg-background/40">
+                <img
+                  src={getRestoredUrl(featuredImage.restoredFile)}
+                  alt={featuredImage.title}
+                  loading="lazy"
+                  className="h-full w-full object-contain transition duration-300 group-hover:scale-[1.02]"
+                />
+              </div>
+            <div className="p-4">
+              <p className="text-sm font-medium text-primary">
+                {featuredImage.title}
+              </p>
 
-            <div className="space-y-4">
+              {contextSources[0]?.sourceCaption && (
+                <p className="mt-2 text-sm leading-6 text-muted-foreground">
+                  {contextSources[0].sourceCaption}
+                </p>
+              )}
+
+              {contextSources[0]?.source && (
+                <p className="mt-3 text-xs text-muted-foreground">
+                  Source: {contextSources[0].source}
+                </p>
+              )}
+
+              {contextSources[0]?.imageCredit && (
+                <p className="mt-1 text-xs text-muted-foreground">
+                  Image credit: {contextSources[0].imageCredit}
+                </p>
+              )}
+            </div>
+            </button>
+
+            <div className="rounded-xl border border-border/20 bg-card/20 p-5 text-left">
+              <p className="mb-3 text-xs uppercase tracking-wider text-muted-foreground">
+                Critical context notes
+              </p>
+
               {contextSources.map((source) => (
                 <div key={source.id} className="text-sm leading-7">
                   <a
@@ -111,18 +159,18 @@ export default function ContextGalleryPage() {
                     rel="noreferrer"
                     className="font-medium text-primary underline-offset-4 hover:underline"
                   >
-                    {source.title}
+                    {/*{source.title} */}
                   </a>
 
-                  <p className="text-muted-foreground">{source.source}</p>
+                 {/* <p className="text-muted-foreground">{source.source}</p> */} 
 
-                  {source.imageCredit && (
+                  {/*{source.imageCredit && (
                     <p className="mt-2 text-xs text-muted-foreground">
                       Image credit: {source.imageCredit}
                     </p>
                   )}
 
-                  {source.sourceCaption && (
+                 {/*  {source.sourceCaption && (
                     <div className="mt-3 rounded-lg border border-border/30 bg-background/40 p-4">
                       <p className="mb-2 text-xs uppercase tracking-wider text-muted-foreground">
                         External source caption
@@ -131,7 +179,7 @@ export default function ContextGalleryPage() {
                         {source.sourceCaption}
                       </p>
                     </div>
-                  )}
+                  )} */}
 
                   {source.interpretiveNote && (
                     <div className="mt-3 rounded-lg border border-primary/20 bg-primary/5 p-4">
@@ -144,21 +192,27 @@ export default function ContextGalleryPage() {
                     </div>
                   )}
 
-                  <p className="mt-3 text-xs leading-6 text-muted-foreground">
-                    {source.note}
-                  </p>
+                  {source.note && (
+                    <p className="mt-10 text-xs leading-7 text-muted-foreground">
+                      {source.note}
+                    </p>
+                  )}
                 </div>
               ))}
             </div>
           </div>
         )}
 
-            <div className="mx-auto mt-10 grid max-w-6xl grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">          {contextImages.map((image, index) => (
+        <div className="mx-auto mt-10 grid max-w-6xl grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {remainingImages.map((image) => (
             <button
               key={image.id}
               type="button"
               onClick={() => {
-                setSelectedIndex(index);
+                const realIndex = contextImages.findIndex(
+                  (item) => item.id === image.id
+                );
+                setSelectedIndex(realIndex);
                 setViewMode('restored');
               }}
               className="group overflow-hidden rounded-xl border border-border/30 bg-card/40 text-left transition hover:border-primary/30 hover:shadow-[0_0_24px_-12px_hsl(43_52%_54%_/_0.25)]"

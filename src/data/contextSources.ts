@@ -14,7 +14,7 @@ export const contextSources: ContextSource[] = [
   {
     id: "cnn_benin_chiefs_galway_1892",
     title: "Meeting between Benin chiefs and Vice-Consul Henry Galway, 1892",
-    source: "CNN Style / Smithsonian National Museum of African Art",
+    source: "CNN  / Smithsonian National Museum of African Art",
     url: "https://edition.cnn.com/style/article/brutish-museums-benin-bronzes/index.html",
     category: "article",
     imageCredit:

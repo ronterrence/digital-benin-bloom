@@ -6,6 +6,7 @@ export default function Navbar() {
   const links = [
     { name: "Home", path: "/" },
     { name: "Audio Narratives", path: "/audio" },
+    { name: "Epilogue", path: "/epilogue" },
     { name: "Archive", path: "/archive" },
     { name: "Oxford", path: "/oxford" },
     { name: "British Museum", path: "/british-museum" },
@@ -13,9 +14,8 @@ export default function Navbar() {
     { name: "SMB", path: "/smb" },
     { name: "Restitution", path: "/restitution" },
     { name: "Survival", path: "/survival" },
-    { name: "Epilogue", path: "/epilogue" },
-    { name: "Context", path: "/context" },
-    { name: "About", path: "/about" },
+    { name: "1897 Context Images", path: "/context" },
+    { name: "Author", path: "/about" },
   ];
 
   return (

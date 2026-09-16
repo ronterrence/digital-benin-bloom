@@ -1,0 +1,185 @@
+﻿record_id,severity,code,field,message
+atlas-weltmuseum-wien-8c355ea381,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-weltmuseum-wien-8c355ea381,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-weltmuseum-wien-8c355ea381,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-weltmuseum-wien-8c355ea381,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-weltmuseum-wien-f55af5cef6,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-weltmuseum-wien-f55af5cef6,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-weltmuseum-wien-f55af5cef6,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-weltmuseum-wien-f55af5cef6,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-museum-of-archaeology-and-anthropology-university-of-cambridge-7a7e5418a6,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-museum-of-archaeology-and-anthropology-university-of-cambridge-7a7e5418a6,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-museum-of-archaeology-and-anthropology-university-of-cambridge-7a7e5418a6,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-museum-of-archaeology-and-anthropology-university-of-cambridge-086d81d7db,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-museum-of-archaeology-and-anthropology-university-of-cambridge-086d81d7db,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-pitt-rivers-museum-d9eb4c677d,warning,unclear_1897_status,expedition_1897_status,The relationship to the 1897 expedition is unresolved.
+atlas-pitt-rivers-museum-d9eb4c677d,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-pitt-rivers-museum-d9eb4c677d,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-pitt-rivers-museum-d9eb4c677d,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-pitt-rivers-museum-d9eb4c677d,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-national-museums-scotland-national-museum-of-scotland-dbd128fa5a,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-national-museums-scotland-national-museum-of-scotland-dbd128fa5a,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-national-museums-scotland-national-museum-of-scotland-dbd128fa5a,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-national-museums-scotland-national-museum-of-scotland-dbd128fa5a,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-national-museums-scotland-national-museum-of-scotland-dbd128fa5a,info,collection_level_record,record_level,"This row describes a collection or count, not one individual object."
+atlas-university-of-aberdeen-museums-and-special-collections-ba14ac905f,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-university-of-aberdeen-museums-and-special-collections-ba14ac905f,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-rautenstrauch-joest-museum-5d310f2b5c,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-rautenstrauch-joest-museum-5d310f2b5c,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-rautenstrauch-joest-museum-5d310f2b5c,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-rautenstrauch-joest-museum-5d310f2b5c,info,collection_level_record,record_level,"This row describes a collection or count, not one individual object."
+atlas-rautenstrauch-joest-museum-5b6c87d9b8,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-rautenstrauch-joest-museum-5b6c87d9b8,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-rautenstrauch-joest-museum-5b6c87d9b8,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-rautenstrauch-joest-museum-5b6c87d9b8,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-staatliche-ethnographische-sammlungen-sachsen-skd-f87dcac734,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-staatliche-ethnographische-sammlungen-sachsen-skd-f87dcac734,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-staatliche-ethnographische-sammlungen-sachsen-skd-f87dcac734,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-staatliche-ethnographische-sammlungen-sachsen-skd-f87dcac734,info,collection_level_record,record_level,"This row describes a collection or count, not one individual object."
+atlas-staatliche-ethnographische-sammlungen-sachsen-skd-2b5a845959,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-staatliche-ethnographische-sammlungen-sachsen-skd-2b5a845959,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-staatliche-ethnographische-sammlungen-sachsen-skd-2b5a845959,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-staatliche-ethnographische-sammlungen-sachsen-skd-2b5a845959,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-markk-hamburg-fdb1c414a8,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-markk-hamburg-fdb1c414a8,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-markk-hamburg-fdb1c414a8,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-markk-hamburg-fdb1c414a8,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-markk-hamburg-fdb1c414a8,info,collection_level_record,record_level,"This row describes a collection or count, not one individual object."
+atlas-markk-hamburg-15637cd184,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-markk-hamburg-15637cd184,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-markk-hamburg-15637cd184,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-markk-hamburg-15637cd184,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-mkg-hamburg-b6db742bdd,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-mkg-hamburg-b6db742bdd,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-mkg-hamburg-b6db742bdd,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-mkg-hamburg-b6db742bdd,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-mkg-hamburg-b6db742bdd,info,collection_level_record,record_level,"This row describes a collection or count, not one individual object."
+atlas-grassi-museum-fr-vlkerkunde-zu-leipzig-skd-ses-d7901b536f,warning,source_columns_repaired,1897 connection,Workbook row 16 had a deterministic N:U column shift; values were realigned and the missing 1897 field remains blank.
+atlas-grassi-museum-fr-vlkerkunde-zu-leipzig-skd-ses-d7901b536f,warning,unclear_1897_status,expedition_1897_status,The relationship to the 1897 expedition is unresolved.
+atlas-grassi-museum-fr-vlkerkunde-zu-leipzig-skd-ses-d7901b536f,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-grassi-museum-fr-vlkerkunde-zu-leipzig-skd-ses-d7901b536f,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-grassi-museum-fr-vlkerkunde-zu-leipzig-skd-ses-d7901b536f,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-grassi-museum-fr-vlkerkunde-zu-leipzig-skd-ses-d7901b536f,info,collection_level_record,record_level,"This row describes a collection or count, not one individual object."
+atlas-grassi-museum-skd-ses-a022d3fd62,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-grassi-museum-skd-ses-a022d3fd62,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-grassi-museum-skd-ses-a022d3fd62,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-grassi-museum-skd-ses-a022d3fd62,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-linden-museum-stuttgart-c7edd83b5e,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-linden-museum-stuttgart-c7edd83b5e,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-linden-museum-stuttgart-c7edd83b5e,info,collection_level_record,record_level,"This row describes a collection or count, not one individual object."
+atlas-linden-museum-stuttgart-e8e35f6f4f,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-linden-museum-stuttgart-e8e35f6f4f,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-linden-museum-stuttgart-e8e35f6f4f,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-linden-museum-stuttgart-e8e35f6f4f,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-nationaal-museum-van-wereldculturen-wereldmuseum-8a426ad07d,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-nationaal-museum-van-wereldculturen-wereldmuseum-8a426ad07d,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-nationaal-museum-van-wereldculturen-wereldmuseum-8a426ad07d,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-nationaal-museum-van-wereldculturen-wereldmuseum-8a426ad07d,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-nationaal-museum-van-wereldculturen-wereldmuseum-8a426ad07d,info,collection_level_record,record_level,"This row describes a collection or count, not one individual object."
+atlas-museum-volkenkunde-wereldmuseum-leiden-1b106ddf9c,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-museum-volkenkunde-wereldmuseum-leiden-1b106ddf9c,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-wereldmuseum-rotterdam-68bfdeb4d8,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-wereldmuseum-rotterdam-68bfdeb4d8,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-etnografiska-museet-vrldskulturmuseerna-b028d59a16,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-etnografiska-museet-vrldskulturmuseerna-b028d59a16,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-etnografiska-museet-vrldskulturmuseerna-b028d59a16,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-etnografiska-museet-vrldskulturmuseerna-b028d59a16,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-etnografiska-museet-vrldskulturmuseerna-b028d59a16,info,collection_level_record,record_level,"This row describes a collection or count, not one individual object."
+atlas-etnografiska-museet-vrldskulturmuseerna-8106549542,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-etnografiska-museet-vrldskulturmuseerna-8106549542,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-etnografiska-museet-vrldskulturmuseerna-8106549542,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-etnografiska-museet-vrldskulturmuseerna-8106549542,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-field-museum-82cb44ce89,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-field-museum-82cb44ce89,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-field-museum-82cb44ce89,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-field-museum-82cb44ce89,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-field-museum-82cb44ce89,info,collection_level_record,record_level,"This row describes a collection or count, not one individual object."
+atlas-field-museum-6a4b899b31,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-field-museum-6a4b899b31,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-field-museum-6a4b899b31,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-field-museum-6a4b899b31,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-art-institute-of-chicago-5c25cacce4,warning,unclear_1897_status,expedition_1897_status,The relationship to the 1897 expedition is unresolved.
+atlas-art-institute-of-chicago-5c25cacce4,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-art-institute-of-chicago-5c25cacce4,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-art-institute-of-chicago-5c25cacce4,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-art-institute-of-chicago-5c25cacce4,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-museum-of-fine-arts-boston-9989b9f5ea,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-museum-of-fine-arts-boston-9989b9f5ea,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-museum-of-fine-arts-boston-9989b9f5ea,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-museum-of-fine-arts-boston-9989b9f5ea,info,collection_level_record,record_level,"This row describes a collection or count, not one individual object."
+atlas-museum-of-fine-arts-boston-e8c9750c84,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-museum-of-fine-arts-boston-e8c9750c84,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-museum-of-fine-arts-boston-e8c9750c84,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-museum-of-fine-arts-boston-eda1c54f9d,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-museum-of-fine-arts-boston-eda1c54f9d,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-museum-of-fine-arts-boston-eda1c54f9d,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-museum-of-fine-arts-boston-eda1c54f9d,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-metropolitan-museum-of-art-ebec070380,warning,unclear_1897_status,expedition_1897_status,The relationship to the 1897 expedition is unresolved.
+atlas-metropolitan-museum-of-art-ebec070380,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-metropolitan-museum-of-art-ebec070380,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-metropolitan-museum-of-art-ebec070380,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-metropolitan-museum-of-art-ebec070380,info,collection_level_record,record_level,"This row describes a collection or count, not one individual object."
+atlas-metropolitan-museum-of-art-f3d1073427,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-metropolitan-museum-of-art-f3d1073427,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-metropolitan-museum-of-art-f3d1073427,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-metropolitan-museum-of-art-f3d1073427,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-brooklyn-museum-dca799f7f9,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-brooklyn-museum-dca799f7f9,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-brooklyn-museum-dca799f7f9,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-brooklyn-museum-dca799f7f9,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-smithsonian-national-museum-of-african-art-904c3f8372,warning,source_columns_repaired,1897 connection,Workbook row 34 had a deterministic N:U column shift; values were realigned and the missing 1897 field remains blank.
+atlas-smithsonian-national-museum-of-african-art-904c3f8372,warning,unclear_1897_status,expedition_1897_status,The relationship to the 1897 expedition is unresolved.
+atlas-smithsonian-national-museum-of-african-art-904c3f8372,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-smithsonian-national-museum-of-african-art-904c3f8372,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-smithsonian-national-museum-of-african-art-904c3f8372,info,collection_level_record,record_level,"This row describes a collection or count, not one individual object."
+atlas-national-gallery-of-art-5d4e3a0efa,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-national-gallery-of-art-5d4e3a0efa,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-national-gallery-of-art-5d4e3a0efa,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-national-gallery-of-art-5d4e3a0efa,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-penn-museum-6415a5524a,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-penn-museum-6415a5524a,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-penn-museum-6415a5524a,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-penn-museum-6415a5524a,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-penn-museum-6415a5524a,info,collection_level_record,record_level,"This row describes a collection or count, not one individual object."
+atlas-penn-museum-1c9495e6b8,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-penn-museum-1c9495e6b8,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-penn-museum-1c9495e6b8,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-barnes-foundation-bea3357d51,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-barnes-foundation-bea3357d51,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-barnes-foundation-bea3357d51,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-barnes-foundation-bea3357d51,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-cleveland-museum-of-art-75e9be857d,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-cleveland-museum-of-art-75e9be857d,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-cleveland-museum-of-art-75e9be857d,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-cleveland-museum-of-art-75e9be857d,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-cleveland-museum-of-art-75e9be857d,info,collection_level_record,record_level,"This row describes a collection or count, not one individual object."
+atlas-detroit-institute-of-arts-920bf5ba18,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-detroit-institute-of-arts-920bf5ba18,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-detroit-institute-of-arts-920bf5ba18,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-detroit-institute-of-arts-920bf5ba18,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-minneapolis-institute-of-art-d68112f05d,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-minneapolis-institute-of-art-d68112f05d,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-minneapolis-institute-of-art-d68112f05d,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-minneapolis-institute-of-art-d68112f05d,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-saint-louis-art-museum-2e00df67c9,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-saint-louis-art-museum-2e00df67c9,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-saint-louis-art-museum-2e00df67c9,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-saint-louis-art-museum-2e00df67c9,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-dallas-museum-of-art-d17c364131,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-dallas-museum-of-art-d17c364131,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-dallas-museum-of-art-d17c364131,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-dallas-museum-of-art-d17c364131,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-risd-museum-90af22c8be,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-risd-museum-90af22c8be,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-risd-museum-90af22c8be,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-risd-museum-90af22c8be,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-harvard-art-museums-f67d79d39a,warning,unclear_1897_status,expedition_1897_status,The relationship to the 1897 expedition is unresolved.
+atlas-harvard-art-museums-f67d79d39a,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-harvard-art-museums-f67d79d39a,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-harvard-art-museums-f67d79d39a,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-harvard-art-museums-f67d79d39a,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."
+atlas-harvard-art-museums-323c35cf7f,warning,unclear_1897_status,expedition_1897_status,The relationship to the 1897 expedition is unresolved.
+atlas-harvard-art-museums-323c35cf7f,warning,digital_benin_unresolved,digital_benin_match_status,Digital Benin matching work remains unresolved.
+atlas-harvard-art-museums-323c35cf7f,warning,unclear_ownership,current_ownership_status,Current legal ownership is unclear.
+atlas-harvard-art-museums-323c35cf7f,warning,unclear_physical_location,current_physical_location,Current physical location is unclear.
+atlas-harvard-art-museums-323c35cf7f,warning,missing_image_rights,image_rights,"An image is reported available, but rights are not documented."

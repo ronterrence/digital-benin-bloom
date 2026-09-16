@@ -17,6 +17,7 @@ import AboutPage from "./pages/AboutPage";
 import OxfordPage from "./OxfordPage";
 import ContextGalleryPage from "./ContextGalleryPage";
 import NotFound from "./pages/NotFound";
+import AtlasPage from "./AtlasPage";
 
 const queryClient = new QueryClient();
 
@@ -33,6 +34,7 @@ const App = () => (
           <Route path="/audio" element={<AudioNarrativesPage />} />
           <Route path="/archive" element={<ArchivePage />} />
           <Route path="/map" element={<MapPage />} />
+          <Route path="/atlas" element={<AtlasPage />} />
           <Route path="/oxford" element={<OxfordPage />} />
           <Route path="/british-museum" element={<BritishMuseumPage />} />
           <Route path="/met-museum" element={<MetMuseumPage />} />

@@ -17,7 +17,9 @@ function loadProgress(): { artifacts: string[]; clusters: number[] } {
   try {
     const stored = localStorage.getItem(STORAGE_KEY);
     if (stored) return JSON.parse(stored);
-  } catch {}
+  } catch {
+    return { artifacts: [], clusters: [] };
+  }
   return { artifacts: [], clusters: [] };
 }
 

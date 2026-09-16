@@ -1,0 +1,23 @@
+{
+  "source_file": "benin_artefacts_master_register.xlsx",
+  "generated_on": "2026-09-09",
+  "total_records": 45,
+  "object_records": 30,
+  "collection_records": 15,
+  "records_created": 0,
+  "records_updated": 0,
+  "records_skipped": 45,
+  "possible_duplicates": [],
+  "fields_changed": 0,
+  "warnings_created": 184,
+  "errors": [],
+  "warning_counts": {
+    "collection_level_record": 15,
+    "digital_benin_unresolved": 45,
+    "missing_image_rights": 41,
+    "source_columns_repaired": 2,
+    "unclear_1897_status": 7,
+    "unclear_ownership": 35,
+    "unclear_physical_location": 39
+  }
+}

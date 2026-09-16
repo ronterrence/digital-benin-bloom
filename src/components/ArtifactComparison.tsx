@@ -156,11 +156,11 @@ export function ArtifactComparison({ artifact }: Props) {
 
   const variants = useMemo<Variant[]>(
     () =>
-      [
+      ([
         { key: 'original', label: 'Original', src: images.original },
         { key: 'enhanced', label: 'Enhanced', src: images.enhanced },
         { key: 'bronze', label: 'Bronze', src: images.bronze },
-      ].filter((v) => !!v.src),
+      ] satisfies Variant[]).filter((v) => !!v.src),
     [images]
   );
 

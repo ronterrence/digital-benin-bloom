@@ -90,3 +90,18 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: hsl(43 52% 54%);
 }
+
+.atlas-marker {
+  align-items: center;
+  background: hsl(43 52% 54%);
+  border: 2px solid hsl(43 72% 75%);
+  border-radius: 9999px;
+  box-shadow: 0 3px 14px rgb(0 0 0 / 55%);
+  color: hsl(0 0% 4%);
+  display: flex;
+  font-size: 12px;
+  font-weight: 700;
+  height: 34px;
+  justify-content: center;
+  width: 34px;
+}

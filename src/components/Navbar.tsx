@@ -8,6 +8,7 @@ export default function Navbar() {
     { name: "Audio Narratives", path: "/audio" },
     { name: "Epilogue", path: "/epilogue" },
     { name: "Archive", path: "/archive" },
+    { name: "Atlas", path: "/atlas" },
     { name: "Oxford", path: "/oxford" },
     { name: "British Museum", path: "/british-museum" },
     { name: "Met Museum", path: "/met-museum" },

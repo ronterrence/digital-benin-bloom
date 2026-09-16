@@ -31,23 +31,6 @@ export function ArtifactModal({
   hasNext = false,
   onOpenChange,
 }: Props) {
-  if (!artifact) return null;
-
-  const atlasEntry = atlas.find((a) => a.id === artifact.id);
-  const verifiedMatch = verifiedMatches.find((m) => m.id === artifact.id);
-
-  const researchStatus = verifiedMatch
-    ? verifiedMatch.verificationStatus === 'exact'
-      ? 'Confirmed object-level match'
-      : 'Probable object-level match'
-    : atlasEntry
-      ? 'Page-linked reference only'
-      : 'No research match status yet';
-
-  const researchTitle = verifiedMatch?.verifiedTitle || null;
-  const researchDescription = verifiedMatch?.verifiedDescription || null;
-  const researchNote = verifiedMatch?.note || null;
-
   useEffect(() => {
     if (!open) return;
 
@@ -66,6 +49,23 @@ export function ArtifactModal({
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [open, hasPrev, hasNext, onPrev, onNext]);
+
+  if (!artifact) return null;
+
+  const atlasEntry = atlas.find((a) => a.id === artifact.id);
+  const verifiedMatch = verifiedMatches.find((m) => m.id === artifact.id);
+
+  const researchStatus = verifiedMatch
+    ? verifiedMatch.verificationStatus === 'exact'
+      ? 'Confirmed object-level match'
+      : 'Probable object-level match'
+    : atlasEntry
+      ? 'Page-linked reference only'
+      : 'No research match status yet';
+
+  const researchTitle = verifiedMatch?.verifiedTitle || null;
+  const researchDescription = verifiedMatch?.verifiedDescription || null;
+  const researchNote = verifiedMatch?.note || null;
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>

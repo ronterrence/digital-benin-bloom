@@ -5,7 +5,7 @@ const stages = [
   {
     icon: ScanLine,
     title: 'Original Scan',
-    description: 'High-resolution digitization of Pitt Rivers\' 1900 photographic plates, preserving every detail of the original publication.',
+    description: 'Digitized figures and plates from the Dan Hicks Benin collections source archive, preserving details of the original printed material.',
   },
   {
     icon: Sparkles,

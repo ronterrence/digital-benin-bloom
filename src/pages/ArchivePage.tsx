@@ -6,36 +6,22 @@ import { ClusterSection } from '@/components/ClusterSection';
 import { ArtifactModal } from '@/components/ArtifactModal';
 import { ProgressTracker } from '@/components/ProgressTracker';
 import { Link } from "react-router-dom";
-import { verifiedMatches } from '@/data/verifiedMatches';
-import { pluralizeObject } from '@/lib/pluralize';
-
-const locatedPittsArtifactIds = new Set(
-  verifiedMatches
-    // A "located" archive object is a Pitts artifact cross-referenced to a
-    // concrete museum catalogue record; map coordinates are not part of this count.
-    .filter((match) => Boolean(match.institution && match.museumRecordId))
-    .map((match) => match.id)
-);
 
 export default function ArchivePage() {
   const [selectedArtifact, setSelectedArtifact] = useState<Artifact | null>(null);
-  const [showOnlyMatched, setShowOnlyMatched] = useState(false);
   const progress = useViewProgress();
-  const locatedCount = locatedPittsArtifactIds.size;
 
   const clusteredArtifacts = useMemo(() => {
   const map = new Map<number, Artifact[]>();
 
   for (const a of artifacts) {
-    if (showOnlyMatched && !locatedPittsArtifactIds.has(a.id)) continue;
-
     const list = map.get(a.cluster) || [];
     list.push(a);
     map.set(a.cluster, list);
   }
 
   return Array.from(map.entries()).sort(([a], [b]) => a - b);
-}, [showOnlyMatched]);
+}, []);
 
   const renderedArtifacts = useMemo(() => {
     return clusteredArtifacts.flatMap(([, arts]) => arts);
@@ -78,21 +64,22 @@ export default function ArchivePage() {
         </h1>
 
         <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-muted-foreground">
-          Explore artifacts grouped by visual and thematic relationships, alongside
+          Explore figures and plates from the Dan Hicks Benin collections source archive,
+          grouped by visual and thematic relationships alongside
           the reconstruction process used to recover details from the original printed plates.
         </p>
 
         <p className="mt-2 text-sm text-muted-foreground">
-        {locatedCount} {pluralizeObject(locatedCount)} currently located through museum cross-reference
+          {artifacts.length} source plates reconstructed from the archive
         </p>
 
         <div className="mt-4 flex flex-wrap items-center justify-center gap-3">
-          <button
-            onClick={() => setShowOnlyMatched((prev) => !prev)}
+          <a
+            href="#visual-clusters"
             className={`${actionButtonClass} border border-primary/40 text-primary hover:bg-primary/10`}
           >
-            {showOnlyMatched ? 'Show all objects' : 'Show located objects only'}
-          </button>
+            Explore visual clusters
+          </a>
 
         <Link
           to="/map"
@@ -105,7 +92,7 @@ export default function ArchivePage() {
 
       <MethodologySection />
 
-      <div className="pb-24">
+      <div id="visual-clusters" className="scroll-mt-24 pb-24">
         {clusteredArtifacts.map(([cluster, arts]) => (
           <ClusterSection
             key={cluster}

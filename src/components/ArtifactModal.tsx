@@ -1,8 +1,6 @@
 import { useEffect } from 'react';
 import { type Artifact } from '@/data/artifacts';
 import { ArtifactComparison } from '@/components/ArtifactComparison';
-import { atlas } from '@/data/atlas';
-import { verifiedMatches } from '@/data/verifiedMatches';
 
 import {
   Dialog,
@@ -51,21 +49,6 @@ export function ArtifactModal({
   }, [open, hasPrev, hasNext, onPrev, onNext]);
 
   if (!artifact) return null;
-
-  const atlasEntry = atlas.find((a) => a.id === artifact.id);
-  const verifiedMatch = verifiedMatches.find((m) => m.id === artifact.id);
-
-  const researchStatus = verifiedMatch
-    ? verifiedMatch.verificationStatus === 'exact'
-      ? 'Confirmed object-level match'
-      : 'Probable object-level match'
-    : atlasEntry
-      ? 'Page-linked reference only'
-      : 'No research match status yet';
-
-  const researchTitle = verifiedMatch?.verifiedTitle || null;
-  const researchDescription = verifiedMatch?.verifiedDescription || null;
-  const researchNote = verifiedMatch?.note || null;
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
@@ -127,47 +110,19 @@ export function ArtifactModal({
             </div>
             <div className="mt-4 rounded-lg bg-secondary/20 p-4 text-sm">
               <p className="mb-2 text-xs uppercase tracking-wider text-muted-foreground">
-                Source Context (Pitts Collection)
+                Source Archive
               </p>
-              <p><strong>Collection:</strong> Works of Art from Benin</p>
-              <p><strong>Publication:</strong> Pitt-Rivers, April 1900</p>
-              <p>
-                <strong>Acquisition context:</strong> Objects obtained during the 1897 British punitive expedition.
+              <p><strong>Source:</strong> Dan Hicks Benin collections source archive</p>
+              <p className="mt-2 break-words text-muted-foreground">
+                benincollections_danhicks.pdf
               </p>
-              <p className="text-muted-foreground mt-2">
-                These images originate from a 1900 publication documenting objects taken in 1897.
-                Their exact identities are being reconstructed through cross-referencing with contemporary museum records.
+              <p className="mt-2 text-muted-foreground">
+                Explore the original printed plate alongside its enhanced and reconstructed views.
               </p>
             </div>
           </>
         )}
 
-        {verifiedMatch && (
-        <div className="mt-4 rounded-lg bg-secondary/10 p-4 text-sm">
-          <p className="mb-2 text-xs uppercase tracking-wider text-muted-foreground">
-            Located / Interpretive Match
-          </p>
-
-          <p>
-            <strong>Status:</strong>{' '}
-            {verifiedMatch.verificationStatus === 'exact'
-              ? 'Located match'
-              : 'Probable located match'}
-          </p>
-
-          {researchTitle && (
-            <p className="mt-2">
-              <strong>Interpretation:</strong> {researchTitle}
-            </p>
-          )}
-
-          {researchNote && (
-            <p className="mt-2 text-muted-foreground">
-              {researchNote}
-            </p>
-          )}
-        </div>
-      )}
 
       </DialogContent>
     </Dialog>

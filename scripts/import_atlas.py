@@ -21,6 +21,7 @@ PUBLIC_OUTPUT = NORMALIZED / "atlas_public_records.json"
 RESEARCH_OUTPUT = NORMALIZED / "atlas_research_records.json"
 REPORT_JSON = NORMALIZED / "atlas_import_report.json"
 REPORT_CSV = NORMALIZED / "atlas_import_warnings.csv"
+RESEARCH_QUEUE_JSON = NORMALIZED / "atlas_research_queue.json"
 OVERRIDES = ROOT / "data" / "curated" / "atlas_overrides.json"
 
 HEADERS = [
@@ -161,6 +162,39 @@ def make_warning(record_id: str, code: str, field: str, message: str, severity: 
     return {"record_id": record_id, "code": code, "field": field, "severity": severity, "message": message}
 
 
+TASK_DEFINITIONS = {
+    "digital_benin_unresolved": ("missing_digital_benin_id", "Check Digital Benin match", "high"),
+    "unclear_1897_status": ("unclear_1897_status", "Verify 1897 relationship", "high"),
+    "unclear_ownership": ("unclear_ownership", "Verify legal ownership and restitution status", "high"),
+    "missing_image_rights": ("missing_image_rights", "Document image rights", "medium"),
+    "missing_coordinates": ("missing_coordinates", "Add or verify institution coordinates", "medium"),
+}
+
+
+def research_tasks(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    tasks = []
+    for record in records:
+        for warning in record.get("warnings", []):
+            definition = TASK_DEFINITIONS.get(warning["code"])
+            if not definition:
+                continue
+            task_type, title, priority = definition
+            tasks.append({
+                "id": f"task-{record['local_record_id']}-{warning['code']}",
+                "object_id": record["local_record_id"],
+                "institution_id": record["institution_id"],
+                "task_type": task_type,
+                "title": title,
+                "description": warning["message"],
+                "priority": priority,
+                "status": "todo",
+                "source_urls": record.get("source_urls", []),
+                "created_at": date.today().isoformat(),
+                "updated_at": date.today().isoformat(),
+            })
+    return tasks
+
+
 def validate(record: dict[str, Any]) -> list[dict[str, str]]:
     rid = record["local_record_id"]
     warnings: list[dict[str, str]] = []
@@ -266,6 +300,26 @@ def matching_keys(record: dict[str, Any]) -> list[str]:
     return keys
 
 
+CURATED_FIELDS = {
+    "digital_benin_id", "digital_benin_url", "digital_benin_source_text",
+    "museum_catalogue_url", "source_urls", "source_notes", "public_notes",
+    "image_url", "image_rights", "image_credit", "last_verified_date",
+}
+
+
+def merge_curated_fields(incoming: dict[str, Any], previous: dict[str, Any]) -> dict[str, Any]:
+    """Keep prior curated values when the incoming workbook leaves them blank."""
+    merged = dict(incoming)
+    for field in CURATED_FIELDS:
+        old_value = previous.get(field)
+        new_value = merged.get(field)
+        old_present = bool(old_value) if not isinstance(old_value, list) else bool(old_value)
+        new_present = bool(new_value) if not isinstance(new_value, list) else bool(new_value)
+        if old_present and not new_present:
+            merged[field] = old_value
+    return merged
+
+
 def apply_overrides(records: list[dict[str, Any]]) -> None:
     overrides = load_json(OVERRIDES, {})
     for record in records:
@@ -291,6 +345,7 @@ def import_atlas(input_path: Path, output_dir: Path = NORMALIZED) -> dict[str, A
         record, row_warnings = make_record(row, row_number)
         matched = next((previous_index[key] for key in matching_keys(record) if key in previous_index), None)
         if matched:
+            record = merge_curated_fields(record, matched)
             changes = sum(matched.get(k) != v for k, v in record.items() if not k.startswith("_"))
             if changes: updated += 1; changed_fields += changes
             else: skipped += 1
@@ -304,14 +359,17 @@ def import_atlas(input_path: Path, output_dir: Path = NORMALIZED) -> dict[str, A
     apply_overrides(records)
     warnings = [warning for record in records for warning in record["warnings"]]
     public = [public_record(record) for record in records]
+    queue = research_tasks(records)
     (output_dir / RESEARCH_OUTPUT.name).write_text(json.dumps(records, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (output_dir / PUBLIC_OUTPUT.name).write_text(json.dumps(public, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (output_dir / RESEARCH_QUEUE_JSON.name).write_text(json.dumps(queue, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     report = {
         "source_file": input_path.name, "generated_on": date.today().isoformat(),
         "total_records": len(records), "object_records": sum(r["record_level"] == "object" for r in records),
         "collection_records": sum(r["record_level"] == "collection" for r in records),
         "records_created": created, "records_updated": updated, "records_skipped": skipped,
         "possible_duplicates": duplicates, "fields_changed": changed_fields,
+        "research_tasks_created": len(queue),
         "warnings_created": len(warnings), "errors": [w for w in warnings if w["severity"] == "error"],
         "warning_counts": dict(sorted(Counter(w["code"] for w in warnings).items())),
     }

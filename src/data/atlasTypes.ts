@@ -29,6 +29,20 @@ export type ValidationWarning = {
   message: string;
 };
 
+export type ResearchTask = {
+  id: string;
+  object_id: string;
+  institution_id: string;
+  task_type: string;
+  title: string;
+  description: string;
+  priority: "high" | "medium" | "low";
+  status: "todo" | "in_progress" | "blocked" | "done" | "wont_do";
+  source_urls: string[];
+  created_at: string;
+  updated_at: string;
+};
+
 export type AtlasRecord = {
   local_record_id: string;
   record_level: RecordLevel;

@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "task-atlas-weltmuseum-wien-8c355ea381-digital_benin_unresolved",
+    "object_id": "atlas-weltmuseum-wien-8c355ea381",
+    "institution_id": "weltmuseum-wien",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.weltmuseumwien.at/en/objects/figure-of-a-court-dwarf-441024"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-weltmuseum-wien-8c355ea381-unclear_ownership",
+    "object_id": "atlas-weltmuseum-wien-8c355ea381",
+    "institution_id": "weltmuseum-wien",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.weltmuseumwien.at/en/objects/figure-of-a-court-dwarf-441024"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-weltmuseum-wien-8c355ea381-missing_image_rights",
+    "object_id": "atlas-weltmuseum-wien-8c355ea381",
+    "institution_id": "weltmuseum-wien",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.weltmuseumwien.at/en/objects/figure-of-a-court-dwarf-441024"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-weltmuseum-wien-f55af5cef6-digital_benin_unresolved",
+    "object_id": "atlas-weltmuseum-wien-f55af5cef6",
+    "institution_id": "weltmuseum-wien",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.weltmuseumwien.at/en/objects/female-figure-441064"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-weltmuseum-wien-f55af5cef6-unclear_ownership",
+    "object_id": "atlas-weltmuseum-wien-f55af5cef6",
+    "institution_id": "weltmuseum-wien",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.weltmuseumwien.at/en/objects/female-figure-441064"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-weltmuseum-wien-f55af5cef6-missing_image_rights",
+    "object_id": "atlas-weltmuseum-wien-f55af5cef6",
+    "institution_id": "weltmuseum-wien",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.weltmuseumwien.at/en/objects/female-figure-441064"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-museum-of-archaeology-and-anthropology-university-of-cambridge-7a7e5418a6-digital_benin_unresolved",
+    "object_id": "atlas-museum-of-archaeology-and-anthropology-university-of-cambridge-7a7e5418a6",
+    "institution_id": "museum-of-archaeology-and-anthropology-university-of-cambridge",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://collections.maa.cam.ac.uk/objects/532530/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-museum-of-archaeology-and-anthropology-university-of-cambridge-7a7e5418a6-missing_image_rights",
+    "object_id": "atlas-museum-of-archaeology-and-anthropology-university-of-cambridge-7a7e5418a6",
+    "institution_id": "museum-of-archaeology-and-anthropology-university-of-cambridge",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://collections.maa.cam.ac.uk/objects/532530/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-museum-of-archaeology-and-anthropology-university-of-cambridge-086d81d7db-digital_benin_unresolved",
+    "object_id": "atlas-museum-of-archaeology-and-anthropology-university-of-cambridge-086d81d7db",
+    "institution_id": "museum-of-archaeology-and-anthropology-university-of-cambridge",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://collections.maa.cam.ac.uk/objects/532528/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-pitt-rivers-museum-d9eb4c677d-unclear_1897_status",
+    "object_id": "atlas-pitt-rivers-museum-d9eb4c677d",
+    "institution_id": "pitt-rivers-museum",
+    "task_type": "unclear_1897_status",
+    "title": "Verify 1897 relationship",
+    "description": "The relationship to the 1897 expedition is unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.prm.ox.ac.uk/benin-bronzes"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-pitt-rivers-museum-d9eb4c677d-digital_benin_unresolved",
+    "object_id": "atlas-pitt-rivers-museum-d9eb4c677d",
+    "institution_id": "pitt-rivers-museum",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.prm.ox.ac.uk/benin-bronzes"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-pitt-rivers-museum-d9eb4c677d-unclear_ownership",
+    "object_id": "atlas-pitt-rivers-museum-d9eb4c677d",
+    "institution_id": "pitt-rivers-museum",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.prm.ox.ac.uk/benin-bronzes"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-pitt-rivers-museum-d9eb4c677d-missing_image_rights",
+    "object_id": "atlas-pitt-rivers-museum-d9eb4c677d",
+    "institution_id": "pitt-rivers-museum",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.prm.ox.ac.uk/benin-bronzes"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-national-museums-scotland-national-museum-of-scotland-dbd128fa5a-digital_benin_unresolved",
+    "object_id": "atlas-national-museums-scotland-national-museum-of-scotland-dbd128fa5a",
+    "institution_id": "national-museums-scotland-national-museum-of-scotland",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.nms.ac.uk/discover-catalogue/benin-collections-at-national-museums-scotland"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-national-museums-scotland-national-museum-of-scotland-dbd128fa5a-unclear_ownership",
+    "object_id": "atlas-national-museums-scotland-national-museum-of-scotland-dbd128fa5a",
+    "institution_id": "national-museums-scotland-national-museum-of-scotland",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.nms.ac.uk/discover-catalogue/benin-collections-at-national-museums-scotland"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-national-museums-scotland-national-museum-of-scotland-dbd128fa5a-missing_image_rights",
+    "object_id": "atlas-national-museums-scotland-national-museum-of-scotland-dbd128fa5a",
+    "institution_id": "national-museums-scotland-national-museum-of-scotland",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.nms.ac.uk/discover-catalogue/benin-collections-at-national-museums-scotland"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-university-of-aberdeen-museums-and-special-collections-ba14ac905f-digital_benin_unresolved",
+    "object_id": "atlas-university-of-aberdeen-museums-and-special-collections-ba14ac905f",
+    "institution_id": "university-of-aberdeen-museums-and-special-collections",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.abdn.ac.uk/news/14790/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-university-of-aberdeen-museums-and-special-collections-ba14ac905f-missing_image_rights",
+    "object_id": "atlas-university-of-aberdeen-museums-and-special-collections-ba14ac905f",
+    "institution_id": "university-of-aberdeen-museums-and-special-collections",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.abdn.ac.uk/news/14790/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-rautenstrauch-joest-museum-5d310f2b5c-digital_benin_unresolved",
+    "object_id": "atlas-rautenstrauch-joest-museum-5d310f2b5c",
+    "institution_id": "rautenstrauch-joest-museum",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://rautenstrauch-joest-museum.de/Hofkunstwerke-aus-dem-Koenigreich-Benin-NEU"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-rautenstrauch-joest-museum-5d310f2b5c-missing_image_rights",
+    "object_id": "atlas-rautenstrauch-joest-museum-5d310f2b5c",
+    "institution_id": "rautenstrauch-joest-museum",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://rautenstrauch-joest-museum.de/Hofkunstwerke-aus-dem-Koenigreich-Benin-NEU"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-rautenstrauch-joest-museum-5b6c87d9b8-digital_benin_unresolved",
+    "object_id": "atlas-rautenstrauch-joest-museum-5b6c87d9b8",
+    "institution_id": "rautenstrauch-joest-museum",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.germancontactpoint.org/benin-bronzes/object.php?o=65"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-rautenstrauch-joest-museum-5b6c87d9b8-unclear_ownership",
+    "object_id": "atlas-rautenstrauch-joest-museum-5b6c87d9b8",
+    "institution_id": "rautenstrauch-joest-museum",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.germancontactpoint.org/benin-bronzes/object.php?o=65"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-rautenstrauch-joest-museum-5b6c87d9b8-missing_image_rights",
+    "object_id": "atlas-rautenstrauch-joest-museum-5b6c87d9b8",
+    "institution_id": "rautenstrauch-joest-museum",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.germancontactpoint.org/benin-bronzes/object.php?o=65"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-staatliche-ethnographische-sammlungen-sachsen-skd-f87dcac734-digital_benin_unresolved",
+    "object_id": "atlas-staatliche-ethnographische-sammlungen-sachsen-skd-f87dcac734",
+    "institution_id": "staatliche-ethnographische-sammlungen-sachsen-skd",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.skd.museum/besucherservice/presse/2022/benin-bronzen-sachsen-uebertraegt-eigentum-an-nigeria/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-staatliche-ethnographische-sammlungen-sachsen-skd-f87dcac734-missing_image_rights",
+    "object_id": "atlas-staatliche-ethnographische-sammlungen-sachsen-skd-f87dcac734",
+    "institution_id": "staatliche-ethnographische-sammlungen-sachsen-skd",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.skd.museum/besucherservice/presse/2022/benin-bronzen-sachsen-uebertraegt-eigentum-an-nigeria/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-staatliche-ethnographische-sammlungen-sachsen-skd-2b5a845959-digital_benin_unresolved",
+    "object_id": "atlas-staatliche-ethnographische-sammlungen-sachsen-skd-2b5a845959",
+    "institution_id": "staatliche-ethnographische-sammlungen-sachsen-skd",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.germancontactpoint.org/benin-bronzes/object.php?o=324"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-staatliche-ethnographische-sammlungen-sachsen-skd-2b5a845959-unclear_ownership",
+    "object_id": "atlas-staatliche-ethnographische-sammlungen-sachsen-skd-2b5a845959",
+    "institution_id": "staatliche-ethnographische-sammlungen-sachsen-skd",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.germancontactpoint.org/benin-bronzes/object.php?o=324"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-staatliche-ethnographische-sammlungen-sachsen-skd-2b5a845959-missing_image_rights",
+    "object_id": "atlas-staatliche-ethnographische-sammlungen-sachsen-skd-2b5a845959",
+    "institution_id": "staatliche-ethnographische-sammlungen-sachsen-skd",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.germancontactpoint.org/benin-bronzes/object.php?o=324"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-markk-hamburg-fdb1c414a8-digital_benin_unresolved",
+    "object_id": "atlas-markk-hamburg-fdb1c414a8",
+    "institution_id": "markk-hamburg",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://markk-hamburg.de/en/ausstellungen/benin-looted-history/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-markk-hamburg-fdb1c414a8-unclear_ownership",
+    "object_id": "atlas-markk-hamburg-fdb1c414a8",
+    "institution_id": "markk-hamburg",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://markk-hamburg.de/en/ausstellungen/benin-looted-history/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-markk-hamburg-fdb1c414a8-missing_image_rights",
+    "object_id": "atlas-markk-hamburg-fdb1c414a8",
+    "institution_id": "markk-hamburg",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://markk-hamburg.de/en/ausstellungen/benin-looted-history/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-markk-hamburg-15637cd184-digital_benin_unresolved",
+    "object_id": "atlas-markk-hamburg-15637cd184",
+    "institution_id": "markk-hamburg",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.germancontactpoint.org/benin-bronzes/object.php?o=476"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-markk-hamburg-15637cd184-unclear_ownership",
+    "object_id": "atlas-markk-hamburg-15637cd184",
+    "institution_id": "markk-hamburg",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.germancontactpoint.org/benin-bronzes/object.php?o=476"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-markk-hamburg-15637cd184-missing_image_rights",
+    "object_id": "atlas-markk-hamburg-15637cd184",
+    "institution_id": "markk-hamburg",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.germancontactpoint.org/benin-bronzes/object.php?o=476"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-mkg-hamburg-b6db742bdd-digital_benin_unresolved",
+    "object_id": "atlas-mkg-hamburg-b6db742bdd",
+    "institution_id": "mkg-hamburg",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.mkg-hamburg.de/en/exhibitions/looted-art"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-mkg-hamburg-b6db742bdd-unclear_ownership",
+    "object_id": "atlas-mkg-hamburg-b6db742bdd",
+    "institution_id": "mkg-hamburg",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.mkg-hamburg.de/en/exhibitions/looted-art"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-mkg-hamburg-b6db742bdd-missing_image_rights",
+    "object_id": "atlas-mkg-hamburg-b6db742bdd",
+    "institution_id": "mkg-hamburg",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.mkg-hamburg.de/en/exhibitions/looted-art"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-grassi-museum-fr-vlkerkunde-zu-leipzig-skd-ses-d7901b536f-unclear_1897_status",
+    "object_id": "atlas-grassi-museum-fr-vlkerkunde-zu-leipzig-skd-ses-d7901b536f",
+    "institution_id": "grassi-museum-fr-vlkerkunde-zu-leipzig-skd-ses",
+    "task_type": "unclear_1897_status",
+    "title": "Verify 1897 relationship",
+    "description": "The relationship to the 1897 expedition is unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.johnlubbock.com/2021/04/05/i-asked-29-museums-if-they-would-be-prepared-to-return-their-stolen-african-art-heres-what-they-said/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-grassi-museum-fr-vlkerkunde-zu-leipzig-skd-ses-d7901b536f-digital_benin_unresolved",
+    "object_id": "atlas-grassi-museum-fr-vlkerkunde-zu-leipzig-skd-ses-d7901b536f",
+    "institution_id": "grassi-museum-fr-vlkerkunde-zu-leipzig-skd-ses",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.johnlubbock.com/2021/04/05/i-asked-29-museums-if-they-would-be-prepared-to-return-their-stolen-african-art-heres-what-they-said/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-grassi-museum-fr-vlkerkunde-zu-leipzig-skd-ses-d7901b536f-missing_image_rights",
+    "object_id": "atlas-grassi-museum-fr-vlkerkunde-zu-leipzig-skd-ses-d7901b536f",
+    "institution_id": "grassi-museum-fr-vlkerkunde-zu-leipzig-skd-ses",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.johnlubbock.com/2021/04/05/i-asked-29-museums-if-they-would-be-prepared-to-return-their-stolen-african-art-heres-what-they-said/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-grassi-museum-skd-ses-a022d3fd62-digital_benin_unresolved",
+    "object_id": "atlas-grassi-museum-skd-ses-a022d3fd62",
+    "institution_id": "grassi-museum-skd-ses",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.germancontactpoint.org/benin-bronzes/object.php?o=339"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-grassi-museum-skd-ses-a022d3fd62-unclear_ownership",
+    "object_id": "atlas-grassi-museum-skd-ses-a022d3fd62",
+    "institution_id": "grassi-museum-skd-ses",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.germancontactpoint.org/benin-bronzes/object.php?o=339"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-grassi-museum-skd-ses-a022d3fd62-missing_image_rights",
+    "object_id": "atlas-grassi-museum-skd-ses-a022d3fd62",
+    "institution_id": "grassi-museum-skd-ses",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.germancontactpoint.org/benin-bronzes/object.php?o=339"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-linden-museum-stuttgart-c7edd83b5e-digital_benin_unresolved",
+    "object_id": "atlas-linden-museum-stuttgart-c7edd83b5e",
+    "institution_id": "linden-museum-stuttgart",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://sammlung-digital.lindenmuseum.de/en/topic/benin-restitution-as-a-process_13206"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-linden-museum-stuttgart-c7edd83b5e-missing_image_rights",
+    "object_id": "atlas-linden-museum-stuttgart-c7edd83b5e",
+    "institution_id": "linden-museum-stuttgart",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://sammlung-digital.lindenmuseum.de/en/topic/benin-restitution-as-a-process_13206"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-linden-museum-stuttgart-e8e35f6f4f-digital_benin_unresolved",
+    "object_id": "atlas-linden-museum-stuttgart-e8e35f6f4f",
+    "institution_id": "linden-museum-stuttgart",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.germancontactpoint.org/benin-bronzes/object.php?o=146"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-linden-museum-stuttgart-e8e35f6f4f-unclear_ownership",
+    "object_id": "atlas-linden-museum-stuttgart-e8e35f6f4f",
+    "institution_id": "linden-museum-stuttgart",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.germancontactpoint.org/benin-bronzes/object.php?o=146"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-linden-museum-stuttgart-e8e35f6f4f-missing_image_rights",
+    "object_id": "atlas-linden-museum-stuttgart-e8e35f6f4f",
+    "institution_id": "linden-museum-stuttgart",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.germancontactpoint.org/benin-bronzes/object.php?o=146"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-nationaal-museum-van-wereldculturen-wereldmuseum-8a426ad07d-digital_benin_unresolved",
+    "object_id": "atlas-nationaal-museum-van-wereldculturen-wereldmuseum-8a426ad07d",
+    "institution_id": "nationaal-museum-van-wereldculturen-wereldmuseum",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://amsterdam.wereldmuseum.nl/sites/default/files/2021-03/2021%20NMVW%20Provenance%202%20%28Benin%29%20e-book.pdf"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-nationaal-museum-van-wereldculturen-wereldmuseum-8a426ad07d-unclear_ownership",
+    "object_id": "atlas-nationaal-museum-van-wereldculturen-wereldmuseum-8a426ad07d",
+    "institution_id": "nationaal-museum-van-wereldculturen-wereldmuseum",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://amsterdam.wereldmuseum.nl/sites/default/files/2021-03/2021%20NMVW%20Provenance%202%20%28Benin%29%20e-book.pdf"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-nationaal-museum-van-wereldculturen-wereldmuseum-8a426ad07d-missing_image_rights",
+    "object_id": "atlas-nationaal-museum-van-wereldculturen-wereldmuseum-8a426ad07d",
+    "institution_id": "nationaal-museum-van-wereldculturen-wereldmuseum",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://amsterdam.wereldmuseum.nl/sites/default/files/2021-03/2021%20NMVW%20Provenance%202%20%28Benin%29%20e-book.pdf"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-museum-volkenkunde-wereldmuseum-leiden-1b106ddf9c-digital_benin_unresolved",
+    "object_id": "atlas-museum-volkenkunde-wereldmuseum-leiden-1b106ddf9c",
+    "institution_id": "museum-volkenkunde-wereldmuseum-leiden",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://amsterdam.wereldmuseum.nl/sites/default/files/2021-03/2021%20NMVW%20Provenance%202%20%28Benin%29%20e-book.pdf"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-wereldmuseum-rotterdam-68bfdeb4d8-digital_benin_unresolved",
+    "object_id": "atlas-wereldmuseum-rotterdam-68bfdeb4d8",
+    "institution_id": "wereldmuseum-rotterdam",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://amsterdam.wereldmuseum.nl/sites/default/files/2021-03/2021%20NMVW%20Provenance%202%20%28Benin%29%20e-book.pdf"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-etnografiska-museet-vrldskulturmuseerna-b028d59a16-digital_benin_unresolved",
+    "object_id": "atlas-etnografiska-museet-vrldskulturmuseerna-b028d59a16",
+    "institution_id": "etnografiska-museet-vrldskulturmuseerna",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.varldskulturmuseerna.se/samlingarna/aterlamnande-av-foremal-ur-samlingarna/benin-aterlamnande/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-etnografiska-museet-vrldskulturmuseerna-b028d59a16-unclear_ownership",
+    "object_id": "atlas-etnografiska-museet-vrldskulturmuseerna-b028d59a16",
+    "institution_id": "etnografiska-museet-vrldskulturmuseerna",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.varldskulturmuseerna.se/samlingarna/aterlamnande-av-foremal-ur-samlingarna/benin-aterlamnande/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-etnografiska-museet-vrldskulturmuseerna-b028d59a16-missing_image_rights",
+    "object_id": "atlas-etnografiska-museet-vrldskulturmuseerna-b028d59a16",
+    "institution_id": "etnografiska-museet-vrldskulturmuseerna",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.varldskulturmuseerna.se/samlingarna/aterlamnande-av-foremal-ur-samlingarna/benin-aterlamnande/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-etnografiska-museet-vrldskulturmuseerna-8106549542-digital_benin_unresolved",
+    "object_id": "atlas-etnografiska-museet-vrldskulturmuseerna-8106549542",
+    "institution_id": "etnografiska-museet-vrldskulturmuseerna",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://collections.smvk.se/carlotta-em/web/object/1238907"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-etnografiska-museet-vrldskulturmuseerna-8106549542-unclear_ownership",
+    "object_id": "atlas-etnografiska-museet-vrldskulturmuseerna-8106549542",
+    "institution_id": "etnografiska-museet-vrldskulturmuseerna",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://collections.smvk.se/carlotta-em/web/object/1238907"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-etnografiska-museet-vrldskulturmuseerna-8106549542-missing_image_rights",
+    "object_id": "atlas-etnografiska-museet-vrldskulturmuseerna-8106549542",
+    "institution_id": "etnografiska-museet-vrldskulturmuseerna",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://collections.smvk.se/carlotta-em/web/object/1238907"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-field-museum-82cb44ce89-digital_benin_unresolved",
+    "object_id": "atlas-field-museum-82cb44ce89",
+    "institution_id": "field-museum",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://hyperallergic.com/new-online-database-tracks-benin-bronzes/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-field-museum-82cb44ce89-unclear_ownership",
+    "object_id": "atlas-field-museum-82cb44ce89",
+    "institution_id": "field-museum",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://hyperallergic.com/new-online-database-tracks-benin-bronzes/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-field-museum-82cb44ce89-missing_image_rights",
+    "object_id": "atlas-field-museum-82cb44ce89",
+    "institution_id": "field-museum",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://hyperallergic.com/new-online-database-tracks-benin-bronzes/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-field-museum-6a4b899b31-digital_benin_unresolved",
+    "object_id": "atlas-field-museum-6a4b899b31",
+    "institution_id": "field-museum",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://collections-anthropology.fieldmuseum.org/catalogue/1313834"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-field-museum-6a4b899b31-unclear_ownership",
+    "object_id": "atlas-field-museum-6a4b899b31",
+    "institution_id": "field-museum",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://collections-anthropology.fieldmuseum.org/catalogue/1313834"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-field-museum-6a4b899b31-missing_image_rights",
+    "object_id": "atlas-field-museum-6a4b899b31",
+    "institution_id": "field-museum",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://collections-anthropology.fieldmuseum.org/catalogue/1313834"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-art-institute-of-chicago-5c25cacce4-unclear_1897_status",
+    "object_id": "atlas-art-institute-of-chicago-5c25cacce4",
+    "institution_id": "art-institute-of-chicago",
+    "task_type": "unclear_1897_status",
+    "title": "Verify 1897 relationship",
+    "description": "The relationship to the 1897 expedition is unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.artic.edu/artworks/180750/head-uhunmwun-elao"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-art-institute-of-chicago-5c25cacce4-digital_benin_unresolved",
+    "object_id": "atlas-art-institute-of-chicago-5c25cacce4",
+    "institution_id": "art-institute-of-chicago",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.artic.edu/artworks/180750/head-uhunmwun-elao"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-art-institute-of-chicago-5c25cacce4-unclear_ownership",
+    "object_id": "atlas-art-institute-of-chicago-5c25cacce4",
+    "institution_id": "art-institute-of-chicago",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.artic.edu/artworks/180750/head-uhunmwun-elao"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-art-institute-of-chicago-5c25cacce4-missing_image_rights",
+    "object_id": "atlas-art-institute-of-chicago-5c25cacce4",
+    "institution_id": "art-institute-of-chicago",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.artic.edu/artworks/180750/head-uhunmwun-elao"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-museum-of-fine-arts-boston-9989b9f5ea-digital_benin_unresolved",
+    "object_id": "atlas-museum-of-fine-arts-boston-9989b9f5ea",
+    "institution_id": "museum-of-fine-arts-boston",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.mfa.org/collections/provenance/colonial-era-provenance"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-museum-of-fine-arts-boston-9989b9f5ea-unclear_ownership",
+    "object_id": "atlas-museum-of-fine-arts-boston-9989b9f5ea",
+    "institution_id": "museum-of-fine-arts-boston",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.mfa.org/collections/provenance/colonial-era-provenance"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-museum-of-fine-arts-boston-9989b9f5ea-missing_image_rights",
+    "object_id": "atlas-museum-of-fine-arts-boston-9989b9f5ea",
+    "institution_id": "museum-of-fine-arts-boston",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.mfa.org/collections/provenance/colonial-era-provenance"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-museum-of-fine-arts-boston-e8c9750c84-digital_benin_unresolved",
+    "object_id": "atlas-museum-of-fine-arts-boston-e8c9750c84",
+    "institution_id": "museum-of-fine-arts-boston",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.mfa.org/collections/provenance/ownership-resolutions"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-museum-of-fine-arts-boston-e8c9750c84-unclear_ownership",
+    "object_id": "atlas-museum-of-fine-arts-boston-e8c9750c84",
+    "institution_id": "museum-of-fine-arts-boston",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.mfa.org/collections/provenance/ownership-resolutions"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-museum-of-fine-arts-boston-eda1c54f9d-digital_benin_unresolved",
+    "object_id": "atlas-museum-of-fine-arts-boston-eda1c54f9d",
+    "institution_id": "museum-of-fine-arts-boston",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.mfa.org/collections/provenance/ownership-resolutions"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-museum-of-fine-arts-boston-eda1c54f9d-unclear_ownership",
+    "object_id": "atlas-museum-of-fine-arts-boston-eda1c54f9d",
+    "institution_id": "museum-of-fine-arts-boston",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.mfa.org/collections/provenance/ownership-resolutions"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-museum-of-fine-arts-boston-eda1c54f9d-missing_image_rights",
+    "object_id": "atlas-museum-of-fine-arts-boston-eda1c54f9d",
+    "institution_id": "museum-of-fine-arts-boston",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.mfa.org/collections/provenance/ownership-resolutions"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-metropolitan-museum-of-art-ebec070380-unclear_1897_status",
+    "object_id": "atlas-metropolitan-museum-of-art-ebec070380",
+    "institution_id": "metropolitan-museum-of-art",
+    "task_type": "unclear_1897_status",
+    "title": "Verify 1897 relationship",
+    "description": "The relationship to the 1897 expedition is unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.metmuseum.org/press-releases/met-and-ncmm-announcement-2021-news"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-metropolitan-museum-of-art-ebec070380-digital_benin_unresolved",
+    "object_id": "atlas-metropolitan-museum-of-art-ebec070380",
+    "institution_id": "metropolitan-museum-of-art",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.metmuseum.org/press-releases/met-and-ncmm-announcement-2021-news"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-metropolitan-museum-of-art-ebec070380-unclear_ownership",
+    "object_id": "atlas-metropolitan-museum-of-art-ebec070380",
+    "institution_id": "metropolitan-museum-of-art",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.metmuseum.org/press-releases/met-and-ncmm-announcement-2021-news"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-metropolitan-museum-of-art-ebec070380-missing_image_rights",
+    "object_id": "atlas-metropolitan-museum-of-art-ebec070380",
+    "institution_id": "metropolitan-museum-of-art",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.metmuseum.org/press-releases/met-and-ncmm-announcement-2021-news"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-metropolitan-museum-of-art-f3d1073427-digital_benin_unresolved",
+    "object_id": "atlas-metropolitan-museum-of-art-f3d1073427",
+    "institution_id": "metropolitan-museum-of-art",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.metmuseum.org/art/collection/search/312290"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-metropolitan-museum-of-art-f3d1073427-unclear_ownership",
+    "object_id": "atlas-metropolitan-museum-of-art-f3d1073427",
+    "institution_id": "metropolitan-museum-of-art",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.metmuseum.org/art/collection/search/312290"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-metropolitan-museum-of-art-f3d1073427-missing_image_rights",
+    "object_id": "atlas-metropolitan-museum-of-art-f3d1073427",
+    "institution_id": "metropolitan-museum-of-art",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.metmuseum.org/art/collection/search/312290"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-brooklyn-museum-dca799f7f9-digital_benin_unresolved",
+    "object_id": "atlas-brooklyn-museum-dca799f7f9",
+    "institution_id": "brooklyn-museum",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.brooklynmuseum.org/objects/4779"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-brooklyn-museum-dca799f7f9-unclear_ownership",
+    "object_id": "atlas-brooklyn-museum-dca799f7f9",
+    "institution_id": "brooklyn-museum",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.brooklynmuseum.org/objects/4779"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-brooklyn-museum-dca799f7f9-missing_image_rights",
+    "object_id": "atlas-brooklyn-museum-dca799f7f9",
+    "institution_id": "brooklyn-museum",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.brooklynmuseum.org/objects/4779"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-smithsonian-national-museum-of-african-art-904c3f8372-unclear_1897_status",
+    "object_id": "atlas-smithsonian-national-museum-of-african-art-904c3f8372",
+    "institution_id": "smithsonian-national-museum-of-african-art",
+    "task_type": "unclear_1897_status",
+    "title": "Verify 1897 relationship",
+    "description": "The relationship to the 1897 expedition is unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.si.edu/newsdesk/releases/smithsonian-returns-29-benin-bronzes-national-commission-museums-and-monuments"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-smithsonian-national-museum-of-african-art-904c3f8372-digital_benin_unresolved",
+    "object_id": "atlas-smithsonian-national-museum-of-african-art-904c3f8372",
+    "institution_id": "smithsonian-national-museum-of-african-art",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.si.edu/newsdesk/releases/smithsonian-returns-29-benin-bronzes-national-commission-museums-and-monuments"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-smithsonian-national-museum-of-african-art-904c3f8372-missing_image_rights",
+    "object_id": "atlas-smithsonian-national-museum-of-african-art-904c3f8372",
+    "institution_id": "smithsonian-national-museum-of-african-art",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.si.edu/newsdesk/releases/smithsonian-returns-29-benin-bronzes-national-commission-museums-and-monuments"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-national-gallery-of-art-5d4e3a0efa-digital_benin_unresolved",
+    "object_id": "atlas-national-gallery-of-art-5d4e3a0efa",
+    "institution_id": "national-gallery-of-art",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.si.edu/newsdesk/releases/smithsonian-returns-29-benin-bronzes-national-commission-museums-and-monuments"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-national-gallery-of-art-5d4e3a0efa-unclear_ownership",
+    "object_id": "atlas-national-gallery-of-art-5d4e3a0efa",
+    "institution_id": "national-gallery-of-art",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.si.edu/newsdesk/releases/smithsonian-returns-29-benin-bronzes-national-commission-museums-and-monuments"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-national-gallery-of-art-5d4e3a0efa-missing_image_rights",
+    "object_id": "atlas-national-gallery-of-art-5d4e3a0efa",
+    "institution_id": "national-gallery-of-art",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.si.edu/newsdesk/releases/smithsonian-returns-29-benin-bronzes-national-commission-museums-and-monuments"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-penn-museum-6415a5524a-digital_benin_unresolved",
+    "object_id": "atlas-penn-museum-6415a5524a",
+    "institution_id": "penn-museum",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.penn.museum/about-collections/curatorial-sections/african-section"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-penn-museum-6415a5524a-unclear_ownership",
+    "object_id": "atlas-penn-museum-6415a5524a",
+    "institution_id": "penn-museum",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.penn.museum/about-collections/curatorial-sections/african-section"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-penn-museum-6415a5524a-missing_image_rights",
+    "object_id": "atlas-penn-museum-6415a5524a",
+    "institution_id": "penn-museum",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.penn.museum/about-collections/curatorial-sections/african-section"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-penn-museum-1c9495e6b8-digital_benin_unresolved",
+    "object_id": "atlas-penn-museum-1c9495e6b8",
+    "institution_id": "penn-museum",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://collections.penn.museum/collections/object/141264"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-penn-museum-1c9495e6b8-unclear_ownership",
+    "object_id": "atlas-penn-museum-1c9495e6b8",
+    "institution_id": "penn-museum",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://collections.penn.museum/collections/object/141264"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-penn-museum-1c9495e6b8-missing_image_rights",
+    "object_id": "atlas-penn-museum-1c9495e6b8",
+    "institution_id": "penn-museum",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://collections.penn.museum/collections/object/141264"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-barnes-foundation-bea3357d51-digital_benin_unresolved",
+    "object_id": "atlas-barnes-foundation-bea3357d51",
+    "institution_id": "barnes-foundation",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://collection.barnesfoundation.org/objects/8112/Standing-Male-Figure/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-barnes-foundation-bea3357d51-unclear_ownership",
+    "object_id": "atlas-barnes-foundation-bea3357d51",
+    "institution_id": "barnes-foundation",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://collection.barnesfoundation.org/objects/8112/Standing-Male-Figure/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-barnes-foundation-bea3357d51-missing_image_rights",
+    "object_id": "atlas-barnes-foundation-bea3357d51",
+    "institution_id": "barnes-foundation",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://collection.barnesfoundation.org/objects/8112/Standing-Male-Figure/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-cleveland-museum-of-art-75e9be857d-digital_benin_unresolved",
+    "object_id": "atlas-cleveland-museum-of-art-75e9be857d",
+    "institution_id": "cleveland-museum-of-art",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.clevelandart.org/articles/art-benin-kingdom"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-cleveland-museum-of-art-75e9be857d-unclear_ownership",
+    "object_id": "atlas-cleveland-museum-of-art-75e9be857d",
+    "institution_id": "cleveland-museum-of-art",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.clevelandart.org/articles/art-benin-kingdom"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-cleveland-museum-of-art-75e9be857d-missing_image_rights",
+    "object_id": "atlas-cleveland-museum-of-art-75e9be857d",
+    "institution_id": "cleveland-museum-of-art",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.clevelandart.org/articles/art-benin-kingdom"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-detroit-institute-of-arts-920bf5ba18-digital_benin_unresolved",
+    "object_id": "atlas-detroit-institute-of-arts-920bf5ba18",
+    "institution_id": "detroit-institute-of-arts",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://dia.org/collection/royal-portrait-34581"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-detroit-institute-of-arts-920bf5ba18-unclear_ownership",
+    "object_id": "atlas-detroit-institute-of-arts-920bf5ba18",
+    "institution_id": "detroit-institute-of-arts",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://dia.org/collection/royal-portrait-34581"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-detroit-institute-of-arts-920bf5ba18-missing_image_rights",
+    "object_id": "atlas-detroit-institute-of-arts-920bf5ba18",
+    "institution_id": "detroit-institute-of-arts",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://dia.org/collection/royal-portrait-34581"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-minneapolis-institute-of-art-d68112f05d-digital_benin_unresolved",
+    "object_id": "atlas-minneapolis-institute-of-art-d68112f05d",
+    "institution_id": "minneapolis-institute-of-art",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://new.artsmia.org/programs/teachers-and-students/teaching-the-arts/artwork-in-focus/benin-momorial-head"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-minneapolis-institute-of-art-d68112f05d-unclear_ownership",
+    "object_id": "atlas-minneapolis-institute-of-art-d68112f05d",
+    "institution_id": "minneapolis-institute-of-art",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://new.artsmia.org/programs/teachers-and-students/teaching-the-arts/artwork-in-focus/benin-momorial-head"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-minneapolis-institute-of-art-d68112f05d-missing_image_rights",
+    "object_id": "atlas-minneapolis-institute-of-art-d68112f05d",
+    "institution_id": "minneapolis-institute-of-art",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://new.artsmia.org/programs/teachers-and-students/teaching-the-arts/artwork-in-focus/benin-momorial-head"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-saint-louis-art-museum-2e00df67c9-digital_benin_unresolved",
+    "object_id": "atlas-saint-louis-art-museum-2e00df67c9",
+    "institution_id": "saint-louis-art-museum",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.slam.org/collection/objects/33865/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-saint-louis-art-museum-2e00df67c9-unclear_ownership",
+    "object_id": "atlas-saint-louis-art-museum-2e00df67c9",
+    "institution_id": "saint-louis-art-museum",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://www.slam.org/collection/objects/33865/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-saint-louis-art-museum-2e00df67c9-missing_image_rights",
+    "object_id": "atlas-saint-louis-art-museum-2e00df67c9",
+    "institution_id": "saint-louis-art-museum",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://www.slam.org/collection/objects/33865/"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-dallas-museum-of-art-d17c364131-digital_benin_unresolved",
+    "object_id": "atlas-dallas-museum-of-art-d17c364131",
+    "institution_id": "dallas-museum-of-art",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://dma.org/art/collection/object/3114457"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-dallas-museum-of-art-d17c364131-unclear_ownership",
+    "object_id": "atlas-dallas-museum-of-art-d17c364131",
+    "institution_id": "dallas-museum-of-art",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://dma.org/art/collection/object/3114457"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-dallas-museum-of-art-d17c364131-missing_image_rights",
+    "object_id": "atlas-dallas-museum-of-art-d17c364131",
+    "institution_id": "dallas-museum-of-art",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://dma.org/art/collection/object/3114457"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-risd-museum-90af22c8be-digital_benin_unresolved",
+    "object_id": "atlas-risd-museum-90af22c8be",
+    "institution_id": "risd-museum",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://risdmuseum.org/node/1175056"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-risd-museum-90af22c8be-unclear_ownership",
+    "object_id": "atlas-risd-museum-90af22c8be",
+    "institution_id": "risd-museum",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://risdmuseum.org/node/1175056"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-risd-museum-90af22c8be-missing_image_rights",
+    "object_id": "atlas-risd-museum-90af22c8be",
+    "institution_id": "risd-museum",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://risdmuseum.org/node/1175056"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-harvard-art-museums-f67d79d39a-unclear_1897_status",
+    "object_id": "atlas-harvard-art-museums-f67d79d39a",
+    "institution_id": "harvard-art-museums",
+    "task_type": "unclear_1897_status",
+    "title": "Verify 1897 relationship",
+    "description": "The relationship to the 1897 expedition is unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://harvardartmuseums.org/art/230607"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-harvard-art-museums-f67d79d39a-digital_benin_unresolved",
+    "object_id": "atlas-harvard-art-museums-f67d79d39a",
+    "institution_id": "harvard-art-museums",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://harvardartmuseums.org/art/230607"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-harvard-art-museums-f67d79d39a-unclear_ownership",
+    "object_id": "atlas-harvard-art-museums-f67d79d39a",
+    "institution_id": "harvard-art-museums",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://harvardartmuseums.org/art/230607"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-harvard-art-museums-f67d79d39a-missing_image_rights",
+    "object_id": "atlas-harvard-art-museums-f67d79d39a",
+    "institution_id": "harvard-art-museums",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://harvardartmuseums.org/art/230607"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-harvard-art-museums-323c35cf7f-unclear_1897_status",
+    "object_id": "atlas-harvard-art-museums-323c35cf7f",
+    "institution_id": "harvard-art-museums",
+    "task_type": "unclear_1897_status",
+    "title": "Verify 1897 relationship",
+    "description": "The relationship to the 1897 expedition is unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://harvardartmuseums.org/art/226425"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-harvard-art-museums-323c35cf7f-digital_benin_unresolved",
+    "object_id": "atlas-harvard-art-museums-323c35cf7f",
+    "institution_id": "harvard-art-museums",
+    "task_type": "missing_digital_benin_id",
+    "title": "Check Digital Benin match",
+    "description": "Digital Benin matching work remains unresolved.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://harvardartmuseums.org/art/226425"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-harvard-art-museums-323c35cf7f-unclear_ownership",
+    "object_id": "atlas-harvard-art-museums-323c35cf7f",
+    "institution_id": "harvard-art-museums",
+    "task_type": "unclear_ownership",
+    "title": "Verify legal ownership and restitution status",
+    "description": "Current legal ownership is unclear.",
+    "priority": "high",
+    "status": "todo",
+    "source_urls": [
+      "https://harvardartmuseums.org/art/226425"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "id": "task-atlas-harvard-art-museums-323c35cf7f-missing_image_rights",
+    "object_id": "atlas-harvard-art-museums-323c35cf7f",
+    "institution_id": "harvard-art-museums",
+    "task_type": "missing_image_rights",
+    "title": "Document image rights",
+    "description": "An image is reported available, but rights are not documented.",
+    "priority": "medium",
+    "status": "todo",
+    "source_urls": [
+      "https://harvardartmuseums.org/art/226425"
+    ],
+    "created_at": "2026-09-17",
+    "updated_at": "2026-09-17"
+  }
+]

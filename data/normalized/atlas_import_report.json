@@ -1,6 +1,6 @@
 {
   "source_file": "benin_artefacts_master_register.xlsx",
-  "generated_on": "2026-09-09",
+  "generated_on": "2026-09-17",
   "total_records": 45,
   "object_records": 30,
   "collection_records": 15,
@@ -9,6 +9,7 @@
   "records_skipped": 45,
   "possible_duplicates": [],
   "fields_changed": 0,
+  "research_tasks_created": 128,
   "warnings_created": 184,
   "errors": [],
   "warning_counts": {

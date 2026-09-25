@@ -1,4 +1,5 @@
 import atlasJson from "../../data/normalized/atlas_public_records.json";
+import queueJson from "../../data/normalized/atlas_research_queue.json";
 import type { AtlasRecord } from "@/data/atlasTypes";
 import { recordsToCsv, summarizeInstitutions } from "@/lib/atlas";
 
@@ -21,5 +22,10 @@ describe("atlas data", () => {
   it("escapes CSV values", () => {
     const csv = recordsToCsv([{ ...records[0], object_title: 'Head, called "royal"' }]);
     expect(csv).toContain('"Head, called ""royal"""');
+  });
+
+  it("publishes a research queue for unresolved high-value fields", () => {
+    const taskTypes = new Set((queueJson as Array<{ task_type: string }>).map((task) => task.task_type));
+    expect(taskTypes).toEqual(new Set(["missing_digital_benin_id", "unclear_1897_status", "unclear_ownership", "missing_image_rights"]));
   });
 });

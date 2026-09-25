@@ -48,6 +48,8 @@ def test_record_is_conservative_and_public_output_is_sanitized(tmp_path):
     assert public[0]["expedition_1897_status"] == "possible_1897_link"
     assert "_raw_import_payload" not in public[0]
     assert "_internal_research_notes" not in public[0]
+    queue = json.loads((tmp_path / "output" / "atlas_research_queue.json").read_text("utf-8"))
+    assert {task["task_type"] for task in queue} >= {"missing_digital_benin_id", "unclear_ownership", "missing_image_rights"}
 
 
 def test_deterministic_shift_is_repaired_and_reported():
@@ -71,6 +73,28 @@ def test_duplicate_accessions_are_flagged(tmp_path):
     report = import_atlas(source, tmp_path / "output")
     assert len(report["possible_duplicates"]) == 1
     assert report["errors"][0]["code"] == "possible_duplicate"
+
+
+def test_missing_coordinates_create_research_task(tmp_path):
+    source = tmp_path / "atlas.xlsx"
+    write_workbook(source, [row(**{"City/Region": "Unknown city"})])
+    import_atlas(source, tmp_path / "output")
+    queue = json.loads((tmp_path / "output" / "atlas_research_queue.json").read_text("utf-8"))
+    assert any(task["task_type"] == "missing_coordinates" for task in queue)
+
+
+def test_existing_curated_values_are_preserved_when_import_is_blank(tmp_path):
+    source = tmp_path / "atlas.xlsx"
+    output = tmp_path / "output"
+    write_workbook(source, [row()])
+    import_atlas(source, output)
+    research_path = output / "atlas_research_records.json"
+    existing = json.loads(research_path.read_text("utf-8"))
+    existing[0]["image_rights"] = "Museum licence"
+    research_path.write_text(json.dumps(existing), encoding="utf-8")
+    import_atlas(source, output)
+    refreshed = json.loads(research_path.read_text("utf-8"))
+    assert refreshed[0]["image_rights"] == "Museum licence"
 
 
 def test_real_workbook_shape():

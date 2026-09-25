@@ -23,6 +23,21 @@ enhance_env/
 sd_env/
 .pytest-tmp/
 .pytest_cache/
+.pytest-cache/
+pytest-cache-files-*/
+
+# Test reports and coverage output
+.coverage
+.coverage.*
+coverage/
+htmlcov/
+playwright-report/
+test-results/
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
 
 # Editors and operating systems
 .lovable/

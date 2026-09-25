@@ -7,26 +7,27 @@ import { ArtifactModal } from '@/components/ArtifactModal';
 import { ProgressTracker } from '@/components/ProgressTracker';
 import { Link } from "react-router-dom";
 import { verifiedMatches } from '@/data/verifiedMatches';
+import { pluralizeObject } from '@/lib/pluralize';
+
+const locatedPittsArtifactIds = new Set(
+  verifiedMatches
+    // A "located" archive object is a Pitts artifact cross-referenced to a
+    // concrete museum catalogue record; map coordinates are not part of this count.
+    .filter((match) => Boolean(match.institution && match.museumRecordId))
+    .map((match) => match.id)
+);
 
 export default function ArchivePage() {
   const [selectedArtifact, setSelectedArtifact] = useState<Artifact | null>(null);
   const [showOnlyMatched, setShowOnlyMatched] = useState(false);
   const progress = useViewProgress();
-  const locatedIds = useMemo(() => {
-  return new Set(
-    verifiedMatches
-      .filter((m) => m.institution && m.museumRecordId)
-      .map((m) => m.id)
-  );
-}, []);
-
-  const locatedCount = locatedIds.size;
+  const locatedCount = locatedPittsArtifactIds.size;
 
   const clusteredArtifacts = useMemo(() => {
   const map = new Map<number, Artifact[]>();
 
   for (const a of artifacts) {
-    if (showOnlyMatched && !locatedIds.has(a.id)) continue;
+    if (showOnlyMatched && !locatedPittsArtifactIds.has(a.id)) continue;
 
     const list = map.get(a.cluster) || [];
     list.push(a);
@@ -34,7 +35,7 @@ export default function ArchivePage() {
   }
 
   return Array.from(map.entries()).sort(([a], [b]) => a - b);
-}, [showOnlyMatched, locatedIds]);
+}, [showOnlyMatched]);
 
   const renderedArtifacts = useMemo(() => {
     return clusteredArtifacts.flatMap(([, arts]) => arts);
@@ -82,7 +83,7 @@ export default function ArchivePage() {
         </p>
 
         <p className="mt-2 text-sm text-muted-foreground">
-        {locatedCount} objects currently located through museum cross-reference
+        {locatedCount} {pluralizeObject(locatedCount)} currently located through museum cross-reference
         </p>
 
         <div className="mt-4 flex flex-wrap items-center justify-center gap-3">

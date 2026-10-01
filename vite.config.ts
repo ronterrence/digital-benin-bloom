@@ -18,7 +18,8 @@ export default defineConfig(({ mode }) => ({
 
   build: {
     outDir: "docs",
-    emptyOutDir: true,
+    // docs/prds contains tracked source documents that must survive builds.
+    emptyOutDir: false,
   },
 
   server: {

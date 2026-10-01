@@ -7,7 +7,7 @@ type NavGroup = { name: string; items: NavItem[] };
 
 const groups: NavGroup[] = [
   { name: "Listen", items: [{ name: "Audio Narratives", path: "/audio" }] },
-  { name: "Explore", items: [{ name: "Atlas", path: "/atlas" }, { name: "Archive", path: "/archive" }] },
+  { name: "Explore", items: [{ name: "Atlas", path: "/atlas" }, { name: "Archive", path: "/archive" }, { name: "Map", path: "/map" }] },
   {
     name: "Museums",
     items: [
